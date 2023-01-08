@@ -1,0 +1,299 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Testcase,Chrome 108.0.0.0,Contains Test Suite,,2023-01-08 19:40:19,2023-01-08 19:45:58,5m - 38.941s,PASSED
+,,,,,,,
+Test Cases/Module-Login/Login - Call,Chrome 108.0.0.0,call data form login using username1,Adjustment,2023-01-08 19:40:20,2023-01-08 19:40:30,10.074s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 19:40:20,2023-01-08 19:40:24,3.446s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 19:40:24,2023-01-08 19:40:24,0.495s,PASSED
+"setText(findTestObject(""Login_Page/username""), username1)",Chrome 108.0.0.0,,,2023-01-08 19:40:24,2023-01-08 19:40:25,1.137s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 19:40:25,2023-01-08 19:40:26,0.601s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:40:26,2023-01-08 19:40:27,0.678s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-08 19:40:27,2023-01-08 19:40:30,3.069s,PASSED
+,,,,,,,
+Test Cases/Module-Login/Login - Empty Login,Chrome 108.0.0.0,As a user i shoudn't login with empty username and empty password,Negative,2023-01-08 19:40:30,2023-01-08 19:40:37,7.306s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 19:40:30,2023-01-08 19:40:32,2.283s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 19:40:32,2023-01-08 19:40:33,0.352s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 19:40:33,2023-01-08 19:40:33,0.559s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:40:33,2023-01-08 19:40:34,0.396s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-empty_username""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:40:34,2023-01-08 19:40:34,0.443s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:40:34,2023-01-08 19:40:34,0.137s,PASSED
+"setText(findTestObject(""Login_Page/username""), ""standard_user"")",Chrome 108.0.0.0,,,2023-01-08 19:40:34,2023-01-08 19:40:35,0.901s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:40:35,2023-01-08 19:40:36,0.518s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-empty_password""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:40:36,2023-01-08 19:40:36,0.459s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:40:36,2023-01-08 19:40:37,0.781s,PASSED
+,,,,,,,
+Test Cases/Module-Login/Login - Must log in before entering any page,Chrome 108.0.0.0,As a user i shoudn't to go other page/next page before i login,Negative,2023-01-08 19:40:37,2023-01-08 19:40:40,3.435s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 19:40:37,2023-01-08 19:40:39,1.515s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/inventory.html"")",Chrome 108.0.0.0,,,2023-01-08 19:40:39,2023-01-08 19:40:39,0.422s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-error_routes""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:40:39,2023-01-08 19:40:40,0.430s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:40:40,2023-01-08 19:40:40,0.747s,PASSED
+,,,,,,,
+Test Cases/Module-Login/Login - Open website,Chrome 108.0.0.0,As a user before login i should access https://www.saucedemo.com/ and i should see login form and login button,Positive,2023-01-08 19:40:40,2023-01-08 19:40:46,5.517s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 19:40:41,2023-01-08 19:40:42,1.449s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 19:40:42,2023-01-08 19:40:43,0.395s,PASSED
+"verifyElementPresent(findTestObject(""Login_Page/username""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:40:43,2023-01-08 19:40:43,0.461s,PASSED
+"verifyElementPresent(findTestObject(""Login_Page/password""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:40:43,2023-01-08 19:40:44,0.501s,PASSED
+"verifyElementPresent(findTestObject(""Login_Page/btn_login""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:40:44,2023-01-08 19:40:44,0.363s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:40:44,2023-01-08 19:40:44,0.396s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/header""))",Chrome 108.0.0.0,,,2023-01-08 19:40:44,2023-01-08 19:40:45,0.435s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/footer""))",Chrome 108.0.0.0,,,2023-01-08 19:40:45,2023-01-08 19:40:45,0.495s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-08 19:40:45,2023-01-08 19:40:46,0.747s,PASSED
+,,,,,,,
+Test Cases/Module-Login/Login - Valid,Chrome 108.0.0.0,As a user i should be able to login using valid data,Positive,2023-01-08 19:40:46,2023-01-08 19:41:03,17.307s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 19:40:46,2023-01-08 19:40:48,1.585s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 19:40:48,2023-01-08 19:40:48,0.387s,PASSED
+"setText(findTestObject(""Login_Page/username""), username1)",Chrome 108.0.0.0,,,2023-01-08 19:40:48,2023-01-08 19:40:49,1.007s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 19:40:49,2023-01-08 19:40:50,0.643s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:40:50,2023-01-08 19:40:50,0.534s,PASSED
+"click(findTestObject(""burger/menu""))",Chrome 108.0.0.0,,,2023-01-08 19:40:50,2023-01-08 19:40:51,0.541s,PASSED
+"click(findTestObject(""burger/logout""))",Chrome 108.0.0.0,,,2023-01-08 19:40:51,2023-01-08 19:40:52,0.499s,PASSED
+"setText(findTestObject(""Login_Page/username""), username2)",Chrome 108.0.0.0,,,2023-01-08 19:40:52,2023-01-08 19:40:52,0.932s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 19:40:52,2023-01-08 19:40:53,0.443s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:40:53,2023-01-08 19:40:53,0.388s,PASSED
+"click(findTestObject(""burger/menu""))",Chrome 108.0.0.0,,,2023-01-08 19:40:53,2023-01-08 19:40:54,0.519s,PASSED
+"click(findTestObject(""burger/logout""))",Chrome 108.0.0.0,,,2023-01-08 19:40:54,2023-01-08 19:40:54,0.522s,PASSED
+"setText(findTestObject(""Login_Page/username""), username3)",Chrome 108.0.0.0,,,2023-01-08 19:40:54,2023-01-08 19:40:55,0.971s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 19:40:55,2023-01-08 19:40:56,0.574s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:40:56,2023-01-08 19:41:01,5.420s,PASSED
+"click(findTestObject(""burger/menu""))",Chrome 108.0.0.0,,,2023-01-08 19:41:01,2023-01-08 19:41:02,0.612s,PASSED
+"click(findTestObject(""burger/logout""))",Chrome 108.0.0.0,,,2023-01-08 19:41:02,2023-01-08 19:41:02,0.601s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:41:02,2023-01-08 19:41:03,0.797s,PASSED
+,,,,,,,
+Test Cases/Module-Login/Login - With invalid password and invalid username,Chrome 108.0.0.0,As a user I shouldn't login with invalid username and with invalid password,Negative,2023-01-08 19:41:03,2023-01-08 19:41:09,5.277s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 19:41:04,2023-01-08 19:41:05,1.537s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 19:41:05,2023-01-08 19:41:06,0.354s,PASSED
+"setText(findTestObject(""Login_Page/username""), ""User-member"")",Chrome 108.0.0.0,,,2023-01-08 19:41:06,2023-01-08 19:41:06,0.830s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""QJblfja5Cso="")",Chrome 108.0.0.0,,,2023-01-08 19:41:06,2023-01-08 19:41:07,0.457s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:41:07,2023-01-08 19:41:07,0.523s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-doesnt_match""), 3)",Chrome 108.0.0.0,,,2023-01-08 19:41:07,2023-01-08 19:41:08,0.484s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:41:08,2023-01-08 19:41:09,0.765s,PASSED
+,,,,,,,
+Test Cases/Module-Login/Login - With invalid password,Chrome 108.0.0.0,As a user I shouldn't login with invalid password,Negative,2023-01-08 19:41:09,2023-01-08 19:41:14,5.405s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 19:41:09,2023-01-08 19:41:11,1.583s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 19:41:11,2023-01-08 19:41:11,0.352s,PASSED
+"setText(findTestObject(""Login_Page/username""), ""standard_user"")",Chrome 108.0.0.0,,,2023-01-08 19:41:11,2023-01-08 19:41:12,0.917s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""lkeQigiJ99F8Wx4U7Su1/g=="")",Chrome 108.0.0.0,,,2023-01-08 19:41:12,2023-01-08 19:41:12,0.575s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:41:12,2023-01-08 19:41:13,0.419s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-doesnt_match""), 3)",Chrome 108.0.0.0,,,2023-01-08 19:41:13,2023-01-08 19:41:13,0.444s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:41:13,2023-01-08 19:41:14,0.764s,PASSED
+,,,,,,,
+Test Cases/Module-Login/Login - With invalid username,Chrome 108.0.0.0,As a user I shouldn't login with invalid username,,2023-01-08 19:41:14,2023-01-08 19:41:19,5.502s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 19:41:14,2023-01-08 19:41:16,1.618s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 19:41:16,2023-01-08 19:41:16,0.371s,PASSED
+"setText(findTestObject(""Login_Page/username""), ""User-member"")",Chrome 108.0.0.0,,,2023-01-08 19:41:16,2023-01-08 19:41:17,0.968s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 19:41:17,2023-01-08 19:41:18,0.584s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:41:18,2023-01-08 19:41:18,0.460s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-doesnt_match""), 3)",Chrome 108.0.0.0,,,2023-01-08 19:41:18,2023-01-08 19:41:19,0.454s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:41:19,2023-01-08 19:41:19,0.765s,PASSED
+,,,,,,,
+Test Cases/Module-Login/Login - With locked account,Chrome 108.0.0.0,As a user I shouldn't login with locked account,Negative,2023-01-08 19:41:19,2023-01-08 19:41:25,5.595s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 19:41:20,2023-01-08 19:41:21,1.598s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 19:41:21,2023-01-08 19:41:22,0.421s,PASSED
+"setText(findTestObject(""Login_Page/username""), locked_username)",Chrome 108.0.0.0,,,2023-01-08 19:41:22,2023-01-08 19:41:23,1.089s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 19:41:23,2023-01-08 19:41:23,0.556s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 19:41:23,2023-01-08 19:41:24,0.419s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-locked_user""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:24,2023-01-08 19:41:24,0.495s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:41:24,2023-01-08 19:41:25,0.753s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Add items to carts,Chrome 108.0.0.0,As a user i should be able to add items to cart,Positive,2023-01-08 19:41:25,2023-01-08 19:41:39,14.027s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:41:25,2023-01-08 19:41:33,7.267s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:41:33,2023-01-08 19:41:33,0.128s,PASSED
+"click(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:33,2023-01-08 19:41:33,0.519s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:33,2023-01-08 19:41:34,0.481s,PASSED
+"click(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:34,2023-01-08 19:41:34,0.503s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:34,2023-01-08 19:41:35,0.453s,PASSED
+"click(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:35,2023-01-08 19:41:35,0.422s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:35,2023-01-08 19:41:36,0.443s,PASSED
+"click(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:36,2023-01-08 19:41:36,0.477s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:36,2023-01-08 19:41:37,0.609s,PASSED
+"click(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:37,2023-01-08 19:41:37,0.380s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:37,2023-01-08 19:41:37,0.455s,PASSED
+"click(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:37,2023-01-08 19:41:38,0.393s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon6""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:38,2023-01-08 19:41:38,0.464s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:41:38,2023-01-08 19:41:39,0.770s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Call,Chrome 108.0.0.0,Calling inventory,Support,2023-01-08 19:41:39,2023-01-08 19:41:52,13.014s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:41:39,2023-01-08 19:41:46,6.900s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:41:46,2023-01-08 19:41:46,0.023s,PASSED
+"click(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:46,2023-01-08 19:41:47,0.502s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:47,2023-01-08 19:41:47,0.446s,PASSED
+"click(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:47,2023-01-08 19:41:48,0.376s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:48,2023-01-08 19:41:48,0.447s,PASSED
+"click(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:48,2023-01-08 19:41:49,0.500s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:49,2023-01-08 19:41:49,0.445s,PASSED
+"click(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:49,2023-01-08 19:41:49,0.403s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:49,2023-01-08 19:41:50,0.429s,PASSED
+"click(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:50,2023-01-08 19:41:50,0.370s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:50,2023-01-08 19:41:51,0.424s,PASSED
+"click(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:51,2023-01-08 19:41:51,0.551s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon6""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:41:51,2023-01-08 19:41:52,0.451s,PASSED
+"click(findTestObject(""cart/cart""))",Chrome 108.0.0.0,,,2023-01-08 19:41:52,2023-01-08 19:41:52,0.434s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Page,Chrome 108.0.0.0,As a user i should be able to access and see the inventory page,Positive,2023-01-08 19:41:52,2023-01-08 19:42:05,13.263s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:41:52,2023-01-08 19:42:00,7.515s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:42:00,2023-01-08 19:42:00,0.021s,PASSED
+"verifyElementPresent(findTestObject(""items/items1""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:42:00,2023-01-08 19:42:00,0.441s,PASSED
+"verifyElementPresent(findTestObject(""items/items2""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:42:00,2023-01-08 19:42:01,0.348s,PASSED
+"verifyElementPresent(findTestObject(""items/items3""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:42:01,2023-01-08 19:42:01,0.341s,PASSED
+"verifyElementPresent(findTestObject(""items/items4""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:42:01,2023-01-08 19:42:01,0.354s,PASSED
+"verifyElementPresent(findTestObject(""items/items5""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:42:01,2023-01-08 19:42:02,0.332s,PASSED
+"verifyElementPresent(findTestObject(""items/items6""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:42:02,2023-01-08 19:42:02,0.346s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:02,2023-01-08 19:42:03,0.394s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:03,2023-01-08 19:42:03,0.499s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:03,2023-01-08 19:42:03,0.391s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:03,2023-01-08 19:42:04,0.382s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:04,2023-01-08 19:42:04,0.334s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:04,2023-01-08 19:42:05,0.485s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:42:05,2023-01-08 19:42:05,0.764s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Remove items,Chrome 108.0.0.0,As a user i should be able to remove items,Positive,2023-01-08 19:42:05,2023-01-08 19:42:24,18.789s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:42:06,2023-01-08 19:42:13,7.131s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:42:13,2023-01-08 19:42:13,0.022s,PASSED
+"click(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:13,2023-01-08 19:42:13,0.492s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:13,2023-01-08 19:42:14,0.449s,PASSED
+"click(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:14,2023-01-08 19:42:14,0.386s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:14,2023-01-08 19:42:15,0.446s,PASSED
+"click(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:15,2023-01-08 19:42:15,0.430s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:15,2023-01-08 19:42:16,0.447s,PASSED
+"click(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:16,2023-01-08 19:42:16,0.396s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:16,2023-01-08 19:42:16,0.532s,PASSED
+"click(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:16,2023-01-08 19:42:17,0.374s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:17,2023-01-08 19:42:17,0.448s,PASSED
+"click(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:42:17,2023-01-08 19:42:18,0.490s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon6""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:18,2023-01-08 19:42:18,0.421s,PASSED
+"click(findTestObject(""remove/items1_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:42:18,2023-01-08 19:42:19,0.387s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:19,2023-01-08 19:42:19,0.456s,PASSED
+"click(findTestObject(""remove/items2_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:42:19,2023-01-08 19:42:20,0.513s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:20,2023-01-08 19:42:20,0.430s,PASSED
+"click(findTestObject(""remove/items3_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:42:20,2023-01-08 19:42:20,0.472s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:20,2023-01-08 19:42:21,0.449s,PASSED
+"click(findTestObject(""remove/items4_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:42:21,2023-01-08 19:42:21,0.486s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:21,2023-01-08 19:42:22,0.545s,PASSED
+"click(findTestObject(""remove/items5_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:42:22,2023-01-08 19:42:22,0.449s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:42:22,2023-01-08 19:42:23,0.456s,PASSED
+"click(findTestObject(""remove/items6_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:42:23,2023-01-08 19:42:23,0.578s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:42:23,2023-01-08 19:42:24,0.775s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by item prize high to low,Chrome 108.0.0.0,As a user i should be able to sort item prize high to low,Positive,2023-01-08 19:42:24,2023-01-08 19:42:34,10.077s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:42:25,2023-01-08 19:42:32,7.664s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:42:32,2023-01-08 19:42:32,0.023s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 19:42:32,2023-01-08 19:42:33,0.410s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""hilo"", false)",Chrome 108.0.0.0,,,2023-01-08 19:42:33,2023-01-08 19:42:33,0.842s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:42:33,2023-01-08 19:42:34,0.848s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by item prize low to high,Chrome 108.0.0.0,As a user i should be able to sort item prize low to high,Positive,2023-01-08 19:42:34,2023-01-08 19:42:44,9.238s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:42:35,2023-01-08 19:42:41,6.808s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:42:41,2023-01-08 19:42:41,0.020s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 19:42:41,2023-01-08 19:42:42,0.485s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""lohi"", false)",Chrome 108.0.0.0,,,2023-01-08 19:42:42,2023-01-08 19:42:43,0.845s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:42:43,2023-01-08 19:42:44,0.773s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by name (A-Z),Chrome 108.0.0.0,As a user i should be able to sort items by name (A- Z),Positive,2023-01-08 19:42:44,2023-01-08 19:42:55,10.936s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:42:44,2023-01-08 19:42:51,7.285s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:42:51,2023-01-08 19:42:51,0.024s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 19:42:51,2023-01-08 19:42:52,0.445s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""za"", false)",Chrome 108.0.0.0,,,2023-01-08 19:42:52,2023-01-08 19:42:52,0.711s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 19:42:52,2023-01-08 19:42:53,0.547s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""az"", false)",Chrome 108.0.0.0,,,2023-01-08 19:42:53,2023-01-08 19:42:54,0.828s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:42:54,2023-01-08 19:42:54,0.757s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by name (Z-A),Chrome 108.0.0.0,As a user i should be able to sort items by name (Z- A),Positive,2023-01-08 19:42:55,2023-01-08 19:43:04,9.488s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:42:55,2023-01-08 19:43:02,6.960s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:43:02,2023-01-08 19:43:02,0.022s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 19:43:02,2023-01-08 19:43:02,0.520s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""za"", false)",Chrome 108.0.0.0,,,2023-01-08 19:43:02,2023-01-08 19:43:03,0.931s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:43:03,2023-01-08 19:43:04,0.765s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart - Call,Chrome 108.0.0.0,,,2023-01-08 19:43:04,2023-01-08 19:43:18,14.081s,PASSED
+"callTestCase(findTestCase(""Module- Inventory and Sort/Inventory - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:43:04,2023-01-08 19:43:17,13.115s,PASSED
+"click(findTestObject(""cart/button_Checkout""))",Chrome 108.0.0.0,,,2023-01-08 19:43:17,2023-01-08 19:43:18,0.618s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart - Checkout empty cart,Chrome 108.0.0.0,As a user i should't be able to checkout an empty cart,Negative,2023-01-08 19:43:18,2023-01-08 19:43:28,10.190s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:43:18,2023-01-08 19:43:26,7.633s,PASSED
+"click(findTestObject(""cart/cart""))",Chrome 108.0.0.0,,,2023-01-08 19:43:26,2023-01-08 19:43:27,0.487s,PASSED
+"click(findTestObject(""cart/button_Checkout""))",Chrome 108.0.0.0,,,2023-01-08 19:43:27,2023-01-08 19:43:27,0.508s,PASSED
+"verifyElementPresent(findTestObject(""form/header""), 5, CONTINUE_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:43:27,2023-01-08 19:43:28,0.451s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:43:28,2023-01-08 19:43:28,0.767s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart - Checkout items,Chrome 108.0.0.0,As a user i should be able to checkout the items in cart,Positive,2023-01-08 19:43:28,2023-01-08 19:43:43,14.909s,PASSED
+"callTestCase(findTestCase(""Module- Inventory and Sort/Inventory - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:43:29,2023-01-08 19:43:41,12.851s,PASSED
+"click(findTestObject(""cart/button_Checkout""))",Chrome 108.0.0.0,,,2023-01-08 19:43:41,2023-01-08 19:43:42,0.501s,PASSED
+"verifyElementPresent(findTestObject(""form/header""), 10)",Chrome 108.0.0.0,,,2023-01-08 19:43:42,2023-01-08 19:43:42,0.441s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:43:42,2023-01-08 19:43:43,0.785s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart - Remove items in cart,Chrome 108.0.0.0,As a user i should be able to remove items form cart,Positive,2023-01-08 19:43:43,2023-01-08 19:44:01,17.588s,PASSED
+"callTestCase(findTestCase(""Module- Inventory and Sort/Inventory - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:43:43,2023-01-08 19:43:56,12.804s,PASSED
+"click(findTestObject(""remove/items1_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:43:56,2023-01-08 19:43:57,0.482s,PASSED
+"click(findTestObject(""remove/items2_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:43:57,2023-01-08 19:43:57,0.593s,PASSED
+"click(findTestObject(""remove/items3_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:43:57,2023-01-08 19:43:58,0.484s,PASSED
+"click(findTestObject(""remove/items4_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:43:58,2023-01-08 19:43:58,0.506s,PASSED
+"click(findTestObject(""remove/items5_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:43:58,2023-01-08 19:43:59,0.587s,PASSED
+"click(findTestObject(""remove/items6_remove""))",Chrome 108.0.0.0,,,2023-01-08 19:43:59,2023-01-08 19:44:00,0.609s,PASSED
+"verifyElementNotPresent(findTestObject(""cart/div_Sauce Labs Backpack""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:44:00,2023-01-08 19:44:00,0.464s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:44:00,2023-01-08 19:44:01,0.767s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart - See items that added to cart,Chrome 108.0.0.0,As a user i should be able to see items that added to cart before,Positive,2023-01-08 19:44:01,2023-01-08 19:44:11,10.238s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:44:01,2023-01-08 19:44:08,6.994s,PASSED
+"click(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:44:08,2023-01-08 19:44:08,0.381s,PASSED
+"click(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 19:44:08,2023-01-08 19:44:09,0.485s,PASSED
+"click(findTestObject(""cart/cart""))",Chrome 108.0.0.0,,,2023-01-08 19:44:09,2023-01-08 19:44:09,0.502s,PASSED
+"verifyElementVisible(findTestObject(""cart/div_Sauce Labs Backpack""))",Chrome 108.0.0.0,,,2023-01-08 19:44:09,2023-01-08 19:44:10,0.485s,PASSED
+"verifyElementVisible(findTestObject(""cart/div_Sauce Labs Bike Light""))",Chrome 108.0.0.0,,,2023-01-08 19:44:10,2023-01-08 19:44:10,0.345s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:44:10,2023-01-08 19:44:11,0.739s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart-Page,Chrome 108.0.0.0,As a user i should be able to see checkout page form,Positive,2023-01-08 19:44:11,2023-01-08 19:44:29,18.148s,PASSED
+"callTestCase(findTestCase(""Module- Inventory and Sort/Inventory - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:44:11,2023-01-08 19:44:24,13.123s,PASSED
+"verifyElementPresent(findTestObject(""cart/cart_Page""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:44:25,2023-01-08 19:44:25,0.473s,PASSED
+"verifyElementClickable(findTestObject(""cart/button_Checkout""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:44:25,2023-01-08 19:44:25,0.436s,PASSED
+"verifyElementClickable(findTestObject(""cart/button_Continue Shopping""))",Chrome 108.0.0.0,,,2023-01-08 19:44:25,2023-01-08 19:44:26,0.432s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems1""))",Chrome 108.0.0.0,,,2023-01-08 19:44:26,2023-01-08 19:44:26,0.343s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems2""))",Chrome 108.0.0.0,,,2023-01-08 19:44:26,2023-01-08 19:44:27,0.379s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems3""))",Chrome 108.0.0.0,,,2023-01-08 19:44:27,2023-01-08 19:44:27,0.470s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems4""))",Chrome 108.0.0.0,,,2023-01-08 19:44:27,2023-01-08 19:44:28,0.493s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems5""))",Chrome 108.0.0.0,,,2023-01-08 19:44:28,2023-01-08 19:44:28,0.470s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems6""))",Chrome 108.0.0.0,,,2023-01-08 19:44:28,2023-01-08 19:44:28,0.458s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:44:28,2023-01-08 19:44:29,0.747s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout page,Chrome 108.0.0.0,As a user i should be able to see checkout page form,Positive,2023-01-08 19:44:29,2023-01-08 19:44:47,17.331s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:44:30,2023-01-08 19:44:43,13.720s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:44:43,2023-01-08 19:44:43,0.031s,PASSED
+"verifyElementPresent(findTestObject(""form/header""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:44:43,2023-01-08 19:44:44,0.535s,PASSED
+"verifyElementPresent(findTestObject(""form/firstName""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:44:44,2023-01-08 19:44:44,0.442s,PASSED
+"verifyElementPresent(findTestObject(""form/form_information""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:44:44,2023-01-08 19:44:45,0.360s,PASSED
+"verifyElementPresent(findTestObject(""form/input_Cancel_continue""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:44:45,2023-01-08 19:44:45,0.385s,PASSED
+"verifyElementPresent(findTestObject(""form/lastName""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:44:45,2023-01-08 19:44:45,0.357s,PASSED
+"verifyElementPresent(findTestObject(""form/postalCode""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:44:45,2023-01-08 19:44:46,0.446s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:44:46,2023-01-08 19:44:47,0.753s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout succes with valid value,Chrome 108.0.0.0,As a user i should be able to insert valid form,Positive,2023-01-08 19:44:47,2023-01-08 19:45:06,19.211s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:44:47,2023-01-08 19:45:00,13.273s,PASSED
+"setText(findTestObject(""form/firstName""), first)",Chrome 108.0.0.0,,,2023-01-08 19:45:00,2023-01-08 19:45:01,1.065s,PASSED
+"setText(findTestObject(""form/lastName""), last)",Chrome 108.0.0.0,,,2023-01-08 19:45:01,2023-01-08 19:45:02,1.154s,PASSED
+"setText(findTestObject(""form/postalCode""), zip)",Chrome 108.0.0.0,,,2023-01-08 19:45:02,2023-01-08 19:45:04,1.173s,PASSED
+"click(findTestObject(""form/input_Cancel_continue""))",Chrome 108.0.0.0,,,2023-01-08 19:45:04,2023-01-08 19:45:04,0.552s,PASSED
+"verifyElementPresent(findTestObject(""checkout2/div_Checkout Overview""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:45:04,2023-01-08 19:45:05,0.445s,PASSED
+"verifyElementPresent(findTestObject(""checkout2/Complete""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:45:05,2023-01-08 19:45:05,0.443s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:45:05,2023-01-08 19:45:06,0.774s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout with Empty First Name,Chrome 108.0.0.0,As a user i shouldn't be able to insert form with Empty first name,Negative,2023-01-08 19:45:06,2023-01-08 19:45:24,17.758s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:45:06,2023-01-08 19:45:20,13.784s,PASSED
+"setText(findTestObject(""form/lastName""), last)",Chrome 108.0.0.0,,,2023-01-08 19:45:20,2023-01-08 19:45:21,0.810s,PASSED
+"setText(findTestObject(""form/postalCode""), zip)",Chrome 108.0.0.0,,,2023-01-08 19:45:21,2023-01-08 19:45:22,0.927s,PASSED
+"click(findTestObject(""form/input_Cancel_continue""))",Chrome 108.0.0.0,,,2023-01-08 19:45:22,2023-01-08 19:45:22,0.597s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-First Name is required""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:45:22,2023-01-08 19:45:23,0.459s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:45:23,2023-01-08 19:45:24,0.769s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout with Empty Last Name,Chrome 108.0.0.0,As a user i shouldn't be able to insert form with Empty last name,Negative,2023-01-08 19:45:24,2023-01-08 19:45:41,17.111s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:45:24,2023-01-08 19:45:37,13.257s,PASSED
+"setText(findTestObject(""form/firstName""), first)",Chrome 108.0.0.0,,,2023-01-08 19:45:37,2023-01-08 19:45:38,0.879s,PASSED
+"setText(findTestObject(""form/postalCode""), zip)",Chrome 108.0.0.0,,,2023-01-08 19:45:38,2023-01-08 19:45:39,0.843s,PASSED
+"click(findTestObject(""form/input_Cancel_continue""))",Chrome 108.0.0.0,,,2023-01-08 19:45:39,2023-01-08 19:45:39,0.520s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-Last Name is required""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:45:39,2023-01-08 19:45:40,0.528s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:45:40,2023-01-08 19:45:41,0.758s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout with Empty Zip or Postal Code,Chrome 108.0.0.0,As a user i shouldn't be able to insert form with Empty zip / postal code,Negative,2023-01-08 19:45:41,2023-01-08 19:45:58,17.569s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:45:41,2023-01-08 19:45:55,13.653s,PASSED
+"setText(findTestObject(""form/lastName""), first)",Chrome 108.0.0.0,,,2023-01-08 19:45:55,2023-01-08 19:45:55,0.833s,PASSED
+"setText(findTestObject(""form/lastName""), last)",Chrome 108.0.0.0,,,2023-01-08 19:45:55,2023-01-08 19:45:56,0.931s,PASSED
+"click(findTestObject(""form/input_Cancel_continue""))",Chrome 108.0.0.0,,,2023-01-08 19:45:56,2023-01-08 19:45:57,0.545s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-Postal Code is required""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:45:57,2023-01-08 19:45:57,0.485s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:45:57,2023-01-08 19:45:58,0.799s,PASSED

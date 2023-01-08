@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Module-1-Login" time="72.146" tests="9" failures="0" errors="0">
+   <testsuite name="Module-1-Login" tests="9" failures="0" errors="0" time="72.146" skipped="0" timestamp="2023-01-08 12:38:12" hostname="Fajar Triady Putra - MSI" id="Test Suites/Module-1-Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Fajar Triady Putra\\git\\ui-automation\\Reports\\20230108_123802\\Module-1-Login\\20230108_123802"/>
+         <property name="logFiles" value="C:\\Users\\Fajar Triady Putra\\git\\ui-automation\\Reports\\20230108_123802\\Module-1-Login\\20230108_123802\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fajar Triady Putra - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="75523b906df3b54222c539f9f128786f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login - Call" time="10.352" classname="Test Cases/Login - Call" status="PASSED">
+         <system-out><![CDATA[2023-01-08 12:38:13 - [TEST_CASE][PASSED] - Test Cases/Login - Call: Test Cases/Login - Call
+
+2023-01-08 12:38:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 12:38:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 12:38:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 12:38:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 12:38:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:17 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), username1): Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:18 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-01-08 12:38:23 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - Empty Login" time="8.577" classname="Test Cases/Login - Empty Login" status="PASSED">
+         <system-out><![CDATA[2023-01-08 12:38:23 - [TEST_CASE][PASSED] - Test Cases/Login - Empty Login: Test Cases/Login - Empty Login
+
+2023-01-08 12:38:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 12:38:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-08 12:38:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 12:38:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 12:38:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 12:38:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:27 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-empty_username"), 5): Object 'Object Repository/err-message/err-empty_username' is present
+
+2023-01-08 12:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-empty_username' is present
+
+2023-01-08 12:38:28 - [TEST_STEP][PASSED] - refresh(STOP_ON_FAILURE): Refresh successfully
+
+2023-01-08 12:38:29 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-01-08 12:38:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:30 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:30 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-empty_password"), 5): Object 'Object Repository/err-message/err-empty_password' is present
+
+2023-01-08 12:38:31 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-empty_password' is present
+
+2023-01-08 12:38:31 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 12:38:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - Open website" time="5.98" classname="Test Cases/Login - Open website" status="PASSED">
+         <system-out><![CDATA[2023-01-08 12:38:32 - [TEST_CASE][PASSED] - Test Cases/Login - Open website: Test Cases/Login - Open website
+
+2023-01-08 12:38:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 12:38:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 12:38:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 12:38:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 12:38:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:34 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_Page/username"), 0): Object 'Object Repository/Login_Page/username' is present
+
+2023-01-08 12:38:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 12:38:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/username' is present
+
+2023-01-08 12:38:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_Page/password"), 0): Object 'Object Repository/Login_Page/password' is present
+
+2023-01-08 12:38:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 12:38:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/password' is present
+
+2023-01-08 12:38:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_Page/btn_login"), 0): Object 'Object Repository/Login_Page/btn_login' is present
+
+2023-01-08 12:38:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 12:38:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/btn_login' is present
+
+2023-01-08 12:38:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login_Page/btn_login")): Object 'Object Repository/Login_Page/btn_login' is clickable
+
+2023-01-08 12:38:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/btn_login' is clickable
+
+2023-01-08 12:38:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/header")): Object 'Object Repository/Login_Page/header' is visible
+
+2023-01-08 12:38:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/header' is visible
+
+2023-01-08 12:38:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/footer")): Object 'Object Repository/Login_Page/footer' is visible
+
+2023-01-08 12:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/footer' is visible
+
+2023-01-08 12:38:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-08 12:38:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - Valid" time="18.386" classname="Test Cases/Login - Valid" status="PASSED">
+         <system-out><![CDATA[2023-01-08 12:38:38 - [TEST_CASE][PASSED] - Test Cases/Login - Valid: Test Cases/Login - Valid
+
+2023-01-08 12:38:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 12:38:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 12:38:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 12:38:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 12:38:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:40 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), username1): Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:41 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Logout/menu")): Object: 'Object Repository/Logout/menu' is clicked on
+
+2023-01-08 12:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/menu' is clicked on
+
+2023-01-08 12:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Logout/logout")): Object: 'Object Repository/Logout/logout' is clicked on
+
+2023-01-08 12:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/logout' is clicked on
+
+2023-01-08 12:38:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), username2): Text 'problem_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:45 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:46 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:46 - [TEST_STEP][PASSED] - click(findTestObject("Logout/menu")): Object: 'Object Repository/Logout/menu' is clicked on
+
+2023-01-08 12:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/menu' is clicked on
+
+2023-01-08 12:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Logout/logout")): Object: 'Object Repository/Logout/logout' is clicked on
+
+2023-01-08 12:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/logout' is clicked on
+
+2023-01-08 12:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), username3): Text 'performance_glitch_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:48 - [MESSAGE][PASSED] - Text 'performance_glitch_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:38:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Logout/menu")): Object: 'Object Repository/Logout/menu' is clicked on
+
+2023-01-08 12:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/menu' is clicked on
+
+2023-01-08 12:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Logout/logout")): Object: 'Object Repository/Logout/logout' is clicked on
+
+2023-01-08 12:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/logout' is clicked on
+
+2023-01-08 12:38:55 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 12:38:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - With invalid password and invalid username" time="6.327" classname="Test Cases/Login - With invalid password and invalid username" status="PASSED">
+         <system-out><![CDATA[2023-01-08 12:38:56 - [TEST_CASE][PASSED] - Test Cases/Login - With invalid password and invalid username: Test Cases/Login - With invalid password and invalid username
+
+2023-01-08 12:38:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 12:38:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 12:38:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 12:38:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 12:38:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:58 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), "User-member"): Text 'User-member' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:39:00 - [MESSAGE][PASSED] - Text 'User-member' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:39:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "QJblfja5Cso="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:39:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:39:00 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:39:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-doesnt_match"), 3): Object 'Object Repository/err-message/err-doesnt_match' is present
+
+2023-01-08 12:39:01 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-doesnt_match' is present
+
+2023-01-08 12:39:01 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 12:39:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - With invalid password" time="6.035" classname="Test Cases/Login - With invalid password" status="PASSED">
+         <system-out><![CDATA[2023-01-08 12:39:02 - [TEST_CASE][PASSED] - Test Cases/Login - With invalid password: Test Cases/Login - With invalid password
+
+2023-01-08 12:39:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 12:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 12:39:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 12:39:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 12:39:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:39:05 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:39:06 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:39:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "lkeQigiJ99F8Wx4U7Su1/g=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:39:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:39:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-doesnt_match"), 3): Object 'Object Repository/err-message/err-doesnt_match' is present
+
+2023-01-08 12:39:08 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-doesnt_match' is present
+
+2023-01-08 12:39:08 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 12:39:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - With invalid username" time="6.212" classname="Test Cases/Login - With invalid username" status="PASSED">
+         <system-out><![CDATA[2023-01-08 12:39:08 - [TEST_CASE][PASSED] - Test Cases/Login - With invalid username: Test Cases/Login - With invalid username
+
+2023-01-08 12:39:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 12:39:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 12:39:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 12:39:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 12:39:11 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:39:11 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), "User-member"): Text 'User-member' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:39:12 - [MESSAGE][PASSED] - Text 'User-member' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:39:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:39:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:39:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-doesnt_match"), 3): Object 'Object Repository/err-message/err-doesnt_match' is present
+
+2023-01-08 12:39:14 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-doesnt_match' is present
+
+2023-01-08 12:39:14 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 12:39:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - With locked account" time="6.006" classname="Test Cases/Login - With locked account" status="PASSED">
+         <system-out><![CDATA[2023-01-08 12:39:15 - [TEST_CASE][PASSED] - Test Cases/Login - With locked account: Test Cases/Login - With locked account
+
+2023-01-08 12:39:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 12:39:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 12:39:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 12:39:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 12:39:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:39:17 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 12:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), locked_username): Text 'locked_out_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:39:18 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 12:39:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:39:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 12:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 12:39:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-locked_user"), 5): Object 'Object Repository/err-message/err-locked_user' is present
+
+2023-01-08 12:39:20 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-locked_user' is present
+
+2023-01-08 12:39:20 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 12:39:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - Must log in before entering any page" time="3.878" classname="Test Cases/Login - Must log in before entering any page" status="PASSED">
+         <system-out><![CDATA[2023-01-08 12:39:21 - [TEST_CASE][PASSED] - Test Cases/Login - Must log in before entering any page: Test Cases/Login - Must log in before entering any page
+
+2023-01-08 12:39:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 12:39:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 12:39:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 12:39:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 12:39:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/inventory.html"): Navigate to 'https://www.saucedemo.com/inventory.html' successfully
+
+2023-01-08 12:39:23 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/inventory.html' successfully
+
+2023-01-08 12:39:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-error_routes"), 0): Object 'Object Repository/err-message/err-error_routes' is present
+
+2023-01-08 12:39:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 12:39:24 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-error_routes' is present
+
+2023-01-08 12:39:24 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 12:39:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-08 12:38:12 - [TEST_SUITE][PASSED] - Module-1-Login: Test Cases/Login - Must log in before entering any page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

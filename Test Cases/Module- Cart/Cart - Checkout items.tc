@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i should be able to checkout the items in cart</description>
+   <name>Cart - Checkout items</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>62412236-fc14-4ab6-9d2d-b3e353f8cf84</testCaseGuid>
+</TestCaseEntity>

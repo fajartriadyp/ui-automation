@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i shoudn't to go other page/next page before i login</description>
+   <name>Login - Must log in before entering any page</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>755d888e-da4f-49f0-9acc-57327cd4d679</testCaseGuid>
+</TestCaseEntity>

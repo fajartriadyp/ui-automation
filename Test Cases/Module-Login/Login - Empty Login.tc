@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i shoudn't login with empty username and empty password</description>
+   <name>Login - Empty Login</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>eace21b7-ac3e-42e9-a235-c57efa554d43</testCaseGuid>
+</TestCaseEntity>

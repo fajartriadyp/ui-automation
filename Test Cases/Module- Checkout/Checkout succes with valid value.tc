@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i should be able to insert valid form</description>
+   <name>Checkout succes with valid value</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>00bb695e-e1ca-4f0d-a316-dd520e81b488</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0809b444-3599-4ab1-8736-fc3f6f0ff9bd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a6eb74d-5ce2-49ed-a7b5-f8d36d808a76</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1d3c0a1-3100-4cfa-b438-50d016a608c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'fajar'</defaultValue>
+      <description></description>
+      <id>0809b444-3599-4ab1-8736-fc3f6f0ff9bd</id>
+      <masked>false</masked>
+      <name>first</name>
+   </variable>
+   <variable>
+      <defaultValue>'triady'</defaultValue>
+      <description></description>
+      <id>1a6eb74d-5ce2-49ed-a7b5-f8d36d808a76</id>
+      <masked>false</masked>
+      <name>last</name>
+   </variable>
+   <variable>
+      <defaultValue>'213123'</defaultValue>
+      <description></description>
+      <id>e1d3c0a1-3100-4cfa-b438-50d016a608c5</id>
+      <masked>false</masked>
+      <name>zip</name>
+   </variable>
+</TestCaseEntity>

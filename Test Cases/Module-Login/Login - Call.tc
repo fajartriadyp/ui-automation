@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>call data form login using username1</description>
+   <name>Login - Call</name>
+   <tag>Adjustment</tag>
+   <comment></comment>
+   <testCaseGuid>3b1a27ca-af06-461c-a0b7-254c9d822fd1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8bbda17e-e0ef-4003-8e44-6c7f325db424</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c36dc8dc-8ad7-439d-a6a7-26ee9c388656</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c9f894c-6993-4978-a074-98298bc86189</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1f2bcba-2bf1-481d-9499-ebe66ea8fa94</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>8bbda17e-e0ef-4003-8e44-6c7f325db424</id>
+      <masked>true</masked>
+      <name>username1</name>
+   </variable>
+   <variable>
+      <defaultValue>'problem_user'</defaultValue>
+      <description></description>
+      <id>c36dc8dc-8ad7-439d-a6a7-26ee9c388656</id>
+      <masked>true</masked>
+      <name>username2</name>
+   </variable>
+   <variable>
+      <defaultValue>'performance_glitch_user'</defaultValue>
+      <description></description>
+      <id>0c9f894c-6993-4978-a074-98298bc86189</id>
+      <masked>true</masked>
+      <name>username3</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>a1f2bcba-2bf1-481d-9499-ebe66ea8fa94</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

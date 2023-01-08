@@ -1,0 +1,95 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Module-1-Login,Chrome 108.0.0.0,,,2023-01-08 12:38:12,2023-01-08 12:39:24,1m - 12.146s,PASSED
+,,,,,,,
+Test Cases/Login - Call,Chrome 108.0.0.0,call data form login using username1,Adjustment,2023-01-08 12:38:13,2023-01-08 12:38:23,10.352s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 12:38:13,2023-01-08 12:38:17,3.453s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 12:38:17,2023-01-08 12:38:17,0.439s,PASSED
+"setText(findTestObject(""Login_Page/username""), username1)",Chrome 108.0.0.0,,,2023-01-08 12:38:17,2023-01-08 12:38:18,1.304s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 12:38:18,2023-01-08 12:38:19,0.678s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:38:19,2023-01-08 12:38:20,0.754s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-08 12:38:20,2023-01-08 12:38:23,3.060s,PASSED
+,,,,,,,
+Test Cases/Login - Empty Login,Chrome 108.0.0.0,As a user i shoudn't login with empty username and empty password,Negative,2023-01-08 12:38:23,2023-01-08 12:38:32,8.577s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 12:38:23,2023-01-08 12:38:26,2.710s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 12:38:26,2023-01-08 12:38:27,0.480s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 12:38:27,2023-01-08 12:38:27,0.852s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:38:27,2023-01-08 12:38:28,0.573s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-empty_username""), 5)",Chrome 108.0.0.0,,,2023-01-08 12:38:28,2023-01-08 12:38:28,0.527s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 12:38:28,2023-01-08 12:38:29,0.167s,PASSED
+"setText(findTestObject(""Login_Page/username""), ""standard_user"")",Chrome 108.0.0.0,,,2023-01-08 12:38:29,2023-01-08 12:38:30,0.989s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:38:30,2023-01-08 12:38:30,0.574s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-empty_password""), 5)",Chrome 108.0.0.0,,,2023-01-08 12:38:30,2023-01-08 12:38:31,0.498s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 12:38:31,2023-01-08 12:38:32,0.847s,PASSED
+,,,,,,,
+Test Cases/Login - Open website,Chrome 108.0.0.0,As a user before login i should access https://www.saucedemo.com/ and i should see login form and login button,Positive,2023-01-08 12:38:32,2023-01-08 12:38:38,5.980s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 12:38:32,2023-01-08 12:38:33,1.576s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 12:38:33,2023-01-08 12:38:34,0.613s,PASSED
+"verifyElementPresent(findTestObject(""Login_Page/username""), 0)",Chrome 108.0.0.0,,,2023-01-08 12:38:34,2023-01-08 12:38:35,0.614s,PASSED
+"verifyElementPresent(findTestObject(""Login_Page/password""), 0)",Chrome 108.0.0.0,,,2023-01-08 12:38:35,2023-01-08 12:38:35,0.454s,PASSED
+"verifyElementPresent(findTestObject(""Login_Page/btn_login""), 0)",Chrome 108.0.0.0,,,2023-01-08 12:38:35,2023-01-08 12:38:36,0.354s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:38:36,2023-01-08 12:38:36,0.374s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/header""))",Chrome 108.0.0.0,,,2023-01-08 12:38:36,2023-01-08 12:38:36,0.465s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/footer""))",Chrome 108.0.0.0,,,2023-01-08 12:38:36,2023-01-08 12:38:37,0.404s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-08 12:38:37,2023-01-08 12:38:38,0.798s,PASSED
+,,,,,,,
+Test Cases/Login - Valid,Chrome 108.0.0.0,As a user i should be able to login using valid data,Positive,2023-01-08 12:38:38,2023-01-08 12:38:56,18.386s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 12:38:38,2023-01-08 12:38:40,1.625s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 12:38:40,2023-01-08 12:38:40,0.452s,PASSED
+"setText(findTestObject(""Login_Page/username""), username1)",Chrome 108.0.0.0,,,2023-01-08 12:38:40,2023-01-08 12:38:41,1.040s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 12:38:41,2023-01-08 12:38:42,0.723s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:38:42,2023-01-08 12:38:42,0.630s,PASSED
+"click(findTestObject(""Logout/menu""))",Chrome 108.0.0.0,,,2023-01-08 12:38:42,2023-01-08 12:38:43,0.997s,PASSED
+"click(findTestObject(""Logout/logout""))",Chrome 108.0.0.0,,,2023-01-08 12:38:43,2023-01-08 12:38:44,0.544s,PASSED
+"setText(findTestObject(""Login_Page/username""), username2)",Chrome 108.0.0.0,,,2023-01-08 12:38:44,2023-01-08 12:38:45,0.910s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 12:38:45,2023-01-08 12:38:46,0.620s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:38:46,2023-01-08 12:38:46,0.415s,PASSED
+"click(findTestObject(""Logout/menu""))",Chrome 108.0.0.0,,,2023-01-08 12:38:46,2023-01-08 12:38:47,0.538s,PASSED
+"click(findTestObject(""Logout/logout""))",Chrome 108.0.0.0,,,2023-01-08 12:38:47,2023-01-08 12:38:47,0.510s,PASSED
+"setText(findTestObject(""Login_Page/username""), username3)",Chrome 108.0.0.0,,,2023-01-08 12:38:47,2023-01-08 12:38:48,0.941s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 12:38:48,2023-01-08 12:38:48,0.486s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:38:48,2023-01-08 12:38:54,5.466s,PASSED
+"click(findTestObject(""Logout/menu""))",Chrome 108.0.0.0,,,2023-01-08 12:38:54,2023-01-08 12:38:54,0.510s,PASSED
+"click(findTestObject(""Logout/logout""))",Chrome 108.0.0.0,,,2023-01-08 12:38:54,2023-01-08 12:38:55,0.653s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 12:38:55,2023-01-08 12:38:56,0.867s,PASSED
+,,,,,,,
+Test Cases/Login - With invalid password and invalid username,Chrome 108.0.0.0,As a user I shouldn't login with invalid username and with invalid password,Negative,2023-01-08 12:38:56,2023-01-08 12:39:02,6.327s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 12:38:56,2023-01-08 12:38:58,1.551s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 12:38:58,2023-01-08 12:38:58,0.583s,PASSED
+"setText(findTestObject(""Login_Page/username""), ""User-member"")",Chrome 108.0.0.0,,,2023-01-08 12:38:58,2023-01-08 12:39:00,1.151s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""QJblfja5Cso="")",Chrome 108.0.0.0,,,2023-01-08 12:39:00,2023-01-08 12:39:00,0.745s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:39:00,2023-01-08 12:39:01,0.619s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-doesnt_match""), 3)",Chrome 108.0.0.0,,,2023-01-08 12:39:01,2023-01-08 12:39:01,0.477s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 12:39:01,2023-01-08 12:39:02,0.886s,PASSED
+,,,,,,,
+Test Cases/Login - With invalid password,Chrome 108.0.0.0,As a user I shouldn't login with invalid password,Negative,2023-01-08 12:39:02,2023-01-08 12:39:08,6.035s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 12:39:03,2023-01-08 12:39:04,1.734s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 12:39:04,2023-01-08 12:39:05,0.448s,PASSED
+"setText(findTestObject(""Login_Page/username""), ""standard_user"")",Chrome 108.0.0.0,,,2023-01-08 12:39:05,2023-01-08 12:39:06,1.075s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""lkeQigiJ99F8Wx4U7Su1/g=="")",Chrome 108.0.0.0,,,2023-01-08 12:39:06,2023-01-08 12:39:07,0.568s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:39:07,2023-01-08 12:39:07,0.541s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-doesnt_match""), 3)",Chrome 108.0.0.0,,,2023-01-08 12:39:07,2023-01-08 12:39:08,0.457s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 12:39:08,2023-01-08 12:39:08,0.777s,PASSED
+,,,,,,,
+Test Cases/Login - With invalid username,Chrome 108.0.0.0,As a user I shouldn't login with invalid username,,2023-01-08 12:39:08,2023-01-08 12:39:15,6.212s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 12:39:09,2023-01-08 12:39:11,1.829s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 12:39:11,2023-01-08 12:39:11,0.375s,PASSED
+"setText(findTestObject(""Login_Page/username""), ""User-member"")",Chrome 108.0.0.0,,,2023-01-08 12:39:11,2023-01-08 12:39:12,1.082s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 12:39:12,2023-01-08 12:39:13,0.644s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:39:13,2023-01-08 12:39:13,0.434s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-doesnt_match""), 3)",Chrome 108.0.0.0,,,2023-01-08 12:39:13,2023-01-08 12:39:14,0.477s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 12:39:14,2023-01-08 12:39:15,0.866s,PASSED
+,,,,,,,
+Test Cases/Login - With locked account,Chrome 108.0.0.0,As a user I shouldn't login with locked account,Negative,2023-01-08 12:39:15,2023-01-08 12:39:21,6.006s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 12:39:15,2023-01-08 12:39:17,1.798s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 108.0.0.0,,,2023-01-08 12:39:17,2023-01-08 12:39:17,0.388s,PASSED
+"setText(findTestObject(""Login_Page/username""), locked_username)",Chrome 108.0.0.0,,,2023-01-08 12:39:17,2023-01-08 12:39:18,0.890s,PASSED
+"setEncryptedText(findTestObject(""Login_Page/password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 108.0.0.0,,,2023-01-08 12:39:18,2023-01-08 12:39:19,0.641s,PASSED
+"click(findTestObject(""Login_Page/btn_login""))",Chrome 108.0.0.0,,,2023-01-08 12:39:19,2023-01-08 12:39:19,0.561s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-locked_user""), 5)",Chrome 108.0.0.0,,,2023-01-08 12:39:19,2023-01-08 12:39:20,0.481s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 12:39:20,2023-01-08 12:39:21,0.856s,PASSED
+,,,,,,,
+Test Cases/Login - Must log in before entering any page,Chrome 108.0.0.0,As a user i shoudn't to go other page/next page before i login,Negative,2023-01-08 12:39:21,2023-01-08 12:39:24,3.878s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-08 12:39:21,2023-01-08 12:39:23,1.666s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/inventory.html"")",Chrome 108.0.0.0,,,2023-01-08 12:39:23,2023-01-08 12:39:23,0.474s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-error_routes""), 0)",Chrome 108.0.0.0,,,2023-01-08 12:39:23,2023-01-08 12:39:24,0.527s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 12:39:24,2023-01-08 12:39:24,0.826s,PASSED

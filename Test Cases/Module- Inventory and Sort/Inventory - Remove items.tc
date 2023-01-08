@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i should be able to remove items</description>
+   <name>Inventory - Remove items</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>4d557dae-1673-43ae-99a4-e53b1c7c39c7</testCaseGuid>
+</TestCaseEntity>

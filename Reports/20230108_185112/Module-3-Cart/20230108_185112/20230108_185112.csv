@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Module-3-Cart,Chrome 108.0.0.0,,,2023-01-08 18:51:24,2023-01-08 18:52:42,1m - 18.401s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart - Checkout empty cart,Chrome 108.0.0.0,As a user i should't be able to checkout an empty cart,Negative,2023-01-08 18:51:24,2023-01-08 18:51:37,13.595s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:51:24,2023-01-08 18:51:35,10.734s,PASSED
+"click(findTestObject(""cart/cart""))",Chrome 108.0.0.0,,,2023-01-08 18:51:35,2023-01-08 18:51:36,0.521s,PASSED
+"click(findTestObject(""cart/button_Checkout""))",Chrome 108.0.0.0,,,2023-01-08 18:51:36,2023-01-08 18:51:36,0.513s,PASSED
+"verifyElementPresent(findTestObject(""form/header""), 5, CONTINUE_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:51:36,2023-01-08 18:51:37,0.489s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:51:37,2023-01-08 18:51:37,0.814s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart - Checkout items,Chrome 108.0.0.0,As a user i should be able to checkout the items in cart,Positive,2023-01-08 18:51:37,2023-01-08 18:51:54,16.486s,PASSED
+"callTestCase(findTestCase(""Module- Inventory and Sort/Inventory - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:51:38,2023-01-08 18:51:52,14.307s,PASSED
+"click(findTestObject(""cart/button_Checkout""))",Chrome 108.0.0.0,,,2023-01-08 18:51:52,2023-01-08 18:51:53,0.510s,PASSED
+"verifyElementPresent(findTestObject(""form/header""), 10)",Chrome 108.0.0.0,,,2023-01-08 18:51:53,2023-01-08 18:51:53,0.495s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:51:53,2023-01-08 18:51:54,0.787s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart - Remove items in cart,Chrome 108.0.0.0,As a user i should be able to remove items form cart,Positive,2023-01-08 18:51:54,2023-01-08 18:52:13,18.628s,PASSED
+"callTestCase(findTestCase(""Module- Inventory and Sort/Inventory - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:51:54,2023-01-08 18:52:08,13.759s,PASSED
+"click(findTestObject(""remove/items1_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:52:08,2023-01-08 18:52:09,0.519s,PASSED
+"click(findTestObject(""remove/items2_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:52:09,2023-01-08 18:52:09,0.567s,PASSED
+"click(findTestObject(""remove/items3_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:52:09,2023-01-08 18:52:10,0.567s,PASSED
+"click(findTestObject(""remove/items4_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:52:10,2023-01-08 18:52:10,0.546s,PASSED
+"click(findTestObject(""remove/items5_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:52:10,2023-01-08 18:52:11,0.522s,PASSED
+"click(findTestObject(""remove/items6_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:52:11,2023-01-08 18:52:11,0.502s,PASSED
+"verifyElementNotPresent(findTestObject(""cart/div_Sauce Labs Backpack""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:52:11,2023-01-08 18:52:12,0.462s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:52:12,2023-01-08 18:52:13,0.809s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart - See items that added to cart,Chrome 108.0.0.0,As a user i should be able to see items that added to cart before,Positive,2023-01-08 18:52:13,2023-01-08 18:52:23,10.650s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:52:13,2023-01-08 18:52:20,7.055s,PASSED
+"click(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:52:20,2023-01-08 18:52:20,0.404s,PASSED
+"click(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:52:20,2023-01-08 18:52:21,0.509s,PASSED
+"click(findTestObject(""cart/cart""))",Chrome 108.0.0.0,,,2023-01-08 18:52:21,2023-01-08 18:52:21,0.499s,PASSED
+"verifyElementVisible(findTestObject(""cart/div_Sauce Labs Backpack""))",Chrome 108.0.0.0,,,2023-01-08 18:52:21,2023-01-08 18:52:22,0.494s,PASSED
+"verifyElementVisible(findTestObject(""cart/div_Sauce Labs Bike Light""))",Chrome 108.0.0.0,,,2023-01-08 18:52:22,2023-01-08 18:52:22,0.487s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:52:22,2023-01-08 18:52:23,0.809s,PASSED
+,,,,,,,
+Test Cases/Module- Cart/Cart-Page,Chrome 108.0.0.0,As a user i should be able to see checkout page form,Positive,2023-01-08 18:52:23,2023-01-08 18:52:42,18.678s,PASSED
+"callTestCase(findTestCase(""Module- Inventory and Sort/Inventory - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:52:24,2023-01-08 18:52:37,13.701s,PASSED
+"verifyElementPresent(findTestObject(""cart/cart_Page""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:52:37,2023-01-08 18:52:38,0.464s,PASSED
+"verifyElementClickable(findTestObject(""cart/button_Checkout""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:52:38,2023-01-08 18:52:38,0.391s,PASSED
+"verifyElementClickable(findTestObject(""cart/button_Continue Shopping""))",Chrome 108.0.0.0,,,2023-01-08 18:52:38,2023-01-08 18:52:39,0.477s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems1""))",Chrome 108.0.0.0,,,2023-01-08 18:52:39,2023-01-08 18:52:39,0.346s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems2""))",Chrome 108.0.0.0,,,2023-01-08 18:52:39,2023-01-08 18:52:39,0.356s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems3""))",Chrome 108.0.0.0,,,2023-01-08 18:52:39,2023-01-08 18:52:40,0.356s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems4""))",Chrome 108.0.0.0,,,2023-01-08 18:52:40,2023-01-08 18:52:40,0.459s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems5""))",Chrome 108.0.0.0,,,2023-01-08 18:52:40,2023-01-08 18:52:41,0.455s,PASSED
+"verifyElementClickable(findTestObject(""cart/btn_removeItems6""))",Chrome 108.0.0.0,,,2023-01-08 18:52:41,2023-01-08 18:52:41,0.566s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:52:41,2023-01-08 18:52:42,0.794s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i should be able to see checkout page form</description>
+   <name>Checkout page</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>bade4372-ebed-48b3-9471-efe6671db85b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i should be able to remove items form cart</description>
+   <name>Cart - Remove items in cart</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>828b837f-f4e7-4805-94ac-c55a12d3e950</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Module-4-Checkout" time="102.349" tests="5" failures="0" errors="0">
+   <testsuite name="Module-4-Checkout" tests="5" failures="0" errors="0" time="102.349" skipped="0" timestamp="2023-01-08 19:32:01" hostname="Fajar Triady Putra - MSI" id="Test Suites/Module-4-Checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Fajar Triady Putra\\git\\ui-automation\\Reports\\20230108_193150\\Module-4-Checkout\\20230108_193150"/>
+         <property name="logFiles" value="C:\\Users\\Fajar Triady Putra\\git\\ui-automation\\Reports\\20230108_193150\\Module-4-Checkout\\20230108_193150\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fajar Triady Putra - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="292bbc7913718530ff385abdffe46b35"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Module- Checkout/Checkout page" time="23.245" classname="Test Cases/Module- Checkout/Checkout page" status="PASSED">
+         <system-out><![CDATA[2023-01-08 19:32:01 - [TEST_CASE][PASSED] - Test Cases/Module- Checkout/Checkout page: Test Cases/Module- Checkout/Checkout page
+
+2023-01-08 19:32:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Cart/Cart - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:32:02 - [TEST_CASE][PASSED] - Test Cases/Module- Cart/Cart - Call: Test Cases/Module- Cart/Cart - Call
+
+2023-01-08 19:32:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Inventory and Sort/Inventory - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:32:03 - [TEST_CASE][PASSED] - Test Cases/Module- Inventory and Sort/Inventory - Call: Test Cases/Module- Inventory and Sort/Inventory - Call
+
+2023-01-08 19:32:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module-Login/Login - Call"), ["username1":"standard_user", "username2":"problem_user", "username3":"performance_glitch_user", "password":"secret_sauce"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:32:03 - [TEST_CASE][PASSED] - Test Cases/Module-Login/Login - Call: Test Cases/Module-Login/Login - Call
+
+2023-01-08 19:32:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 19:32:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 19:32:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 19:32:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 19:32:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:32:09 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), username1): Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:32:10 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:32:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:32:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:32:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-01-08 19:32:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-01-08 19:32:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:32:15 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-01-08 19:32:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-01-08 19:32:15 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items1_add to cart")): Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:32:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon1"), 5): Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:32:16 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:32:16 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items2_add to cart")): Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:32:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon2"), 5): Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:32:16 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:32:16 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items3_add to cart")): Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:32:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon3"), 5): Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:32:17 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:32:17 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items4_add to cart")): Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:32:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon4"), 5): Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:32:18 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:32:18 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items5_add to cart")): Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:32:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon5"), 5): Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:32:19 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:32:19 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items6_add to cart")): Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:32:20 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:32:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon6"), 5): Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:32:20 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:32:20 - [TEST_STEP][PASSED] - click(findTestObject("cart/cart")): Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:32:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:32:21 - [TEST_STEP][PASSED] - click(findTestObject("cart/button_Checkout")): Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:32:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:32:21 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-01-08 19:32:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-01-08 19:32:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("form/header"), 0): Object 'Object Repository/form/header' is present
+
+2023-01-08 19:32:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 19:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/form/header' is present
+
+2023-01-08 19:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("form/firstName"), 0): Object 'Object Repository/form/firstName' is present
+
+2023-01-08 19:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 19:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/form/firstName' is present
+
+2023-01-08 19:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("form/form_information"), 0): Object 'Object Repository/form/form_information' is present
+
+2023-01-08 19:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 19:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/form/form_information' is present
+
+2023-01-08 19:32:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("form/input_Cancel_continue"), 0): Object 'Object Repository/form/input_Cancel_continue' is present
+
+2023-01-08 19:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 19:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/form/input_Cancel_continue' is present
+
+2023-01-08 19:32:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("form/lastName"), 0): Object 'Object Repository/form/lastName' is present
+
+2023-01-08 19:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 19:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/form/lastName' is present
+
+2023-01-08 19:32:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("form/postalCode"), 0): Object 'Object Repository/form/postalCode' is present
+
+2023-01-08 19:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 19:32:24 - [MESSAGE][PASSED] - Object 'Object Repository/form/postalCode' is present
+
+2023-01-08 19:32:24 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 19:32:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module- Checkout/Checkout succes with valid value" time="20.21" classname="Test Cases/Module- Checkout/Checkout succes with valid value" status="PASSED">
+         <system-out><![CDATA[2023-01-08 19:32:24 - [TEST_CASE][PASSED] - Test Cases/Module- Checkout/Checkout succes with valid value: Test Cases/Module- Checkout/Checkout succes with valid value
+
+2023-01-08 19:32:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Cart/Cart - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:32:25 - [TEST_CASE][PASSED] - Test Cases/Module- Cart/Cart - Call: Test Cases/Module- Cart/Cart - Call
+
+2023-01-08 19:32:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Inventory and Sort/Inventory - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:32:25 - [TEST_CASE][PASSED] - Test Cases/Module- Inventory and Sort/Inventory - Call: Test Cases/Module- Inventory and Sort/Inventory - Call
+
+2023-01-08 19:32:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module-Login/Login - Call"), ["username1":"standard_user", "username2":"problem_user", "username3":"performance_glitch_user", "password":"secret_sauce"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:32:25 - [TEST_CASE][PASSED] - Test Cases/Module-Login/Login - Call: Test Cases/Module-Login/Login - Call
+
+2023-01-08 19:32:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 19:32:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 19:32:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 19:32:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 19:32:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:32:27 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), username1): Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:32:28 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:32:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:32:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:32:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-01-08 19:32:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-01-08 19:32:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:32:32 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-01-08 19:32:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-01-08 19:32:33 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items1_add to cart")): Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:32:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon1"), 5): Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:32:34 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:32:34 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items2_add to cart")): Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:32:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon2"), 5): Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:32:35 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:32:35 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items3_add to cart")): Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:32:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon3"), 5): Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:32:36 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:32:36 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items4_add to cart")): Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:32:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon4"), 5): Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:32:37 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:32:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items5_add to cart")): Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:32:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon5"), 5): Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:32:37 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:32:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items6_add to cart")): Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:32:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon6"), 5): Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:32:38 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:32:38 - [TEST_STEP][PASSED] - click(findTestObject("cart/cart")): Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:32:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:32:39 - [TEST_STEP][PASSED] - click(findTestObject("cart/button_Checkout")): Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:32:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:32:39 - [TEST_STEP][PASSED] - setText(findTestObject("form/firstName"), first): Text 'fajar' is set on object 'Object Repository/form/firstName'
+
+2023-01-08 19:32:40 - [MESSAGE][PASSED] - Text 'fajar' is set on object 'Object Repository/form/firstName'
+
+2023-01-08 19:32:40 - [TEST_STEP][PASSED] - setText(findTestObject("form/lastName"), last): Text 'triady' is set on object 'Object Repository/form/lastName'
+
+2023-01-08 19:32:41 - [MESSAGE][PASSED] - Text 'triady' is set on object 'Object Repository/form/lastName'
+
+2023-01-08 19:32:41 - [TEST_STEP][PASSED] - setText(findTestObject("form/postalCode"), zip): Text '213123' is set on object 'Object Repository/form/postalCode'
+
+2023-01-08 19:32:42 - [MESSAGE][PASSED] - Text '213123' is set on object 'Object Repository/form/postalCode'
+
+2023-01-08 19:32:42 - [TEST_STEP][PASSED] - click(findTestObject("form/input_Cancel_continue")): Object: 'Object Repository/form/input_Cancel_continue' is clicked on
+
+2023-01-08 19:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/form/input_Cancel_continue' is clicked on
+
+2023-01-08 19:32:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("checkout2/div_Checkout Overview"), 0): Object 'Object Repository/checkout2/div_Checkout Overview' is present
+
+2023-01-08 19:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 19:32:43 - [MESSAGE][PASSED] - Object 'Object Repository/checkout2/div_Checkout Overview' is present
+
+2023-01-08 19:32:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("checkout2/Complete"), 0): Object 'Object Repository/checkout2/Complete' is present
+
+2023-01-08 19:32:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-08 19:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/checkout2/Complete' is present
+
+2023-01-08 19:32:44 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 19:32:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module- Checkout/Checkout with Empty First Name" time="18.312" classname="Test Cases/Module- Checkout/Checkout with Empty First Name" status="PASSED">
+         <system-out><![CDATA[2023-01-08 19:32:45 - [TEST_CASE][PASSED] - Test Cases/Module- Checkout/Checkout with Empty First Name: Test Cases/Module- Checkout/Checkout with Empty First Name
+
+2023-01-08 19:32:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Cart/Cart - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:32:45 - [TEST_CASE][PASSED] - Test Cases/Module- Cart/Cart - Call: Test Cases/Module- Cart/Cart - Call
+
+2023-01-08 19:32:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Inventory and Sort/Inventory - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:32:45 - [TEST_CASE][PASSED] - Test Cases/Module- Inventory and Sort/Inventory - Call: Test Cases/Module- Inventory and Sort/Inventory - Call
+
+2023-01-08 19:32:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module-Login/Login - Call"), ["username1":"standard_user", "username2":"problem_user", "username3":"performance_glitch_user", "password":"secret_sauce"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:32:45 - [TEST_CASE][PASSED] - Test Cases/Module-Login/Login - Call: Test Cases/Module-Login/Login - Call
+
+2023-01-08 19:32:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 19:32:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 19:32:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 19:32:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 19:32:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:32:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), username1): Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:32:48 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:32:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:32:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:32:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-01-08 19:32:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-01-08 19:32:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:32:53 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-01-08 19:32:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-01-08 19:32:53 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items1_add to cart")): Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:32:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon1"), 5): Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:32:54 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:32:54 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items2_add to cart")): Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:32:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon2"), 5): Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:32:54 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:32:54 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items3_add to cart")): Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:32:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon3"), 5): Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:32:55 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:32:55 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items4_add to cart")): Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:32:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon4"), 5): Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:32:56 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:32:56 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items5_add to cart")): Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:32:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon5"), 5): Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:32:57 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:32:57 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items6_add to cart")): Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:32:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon6"), 5): Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:32:58 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:32:58 - [TEST_STEP][PASSED] - click(findTestObject("cart/cart")): Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:32:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:32:59 - [TEST_STEP][PASSED] - click(findTestObject("cart/button_Checkout")): Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:32:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("form/lastName"), last): Text 'triady' is set on object 'Object Repository/form/lastName'
+
+2023-01-08 19:33:00 - [MESSAGE][PASSED] - Text 'triady' is set on object 'Object Repository/form/lastName'
+
+2023-01-08 19:33:00 - [TEST_STEP][PASSED] - setText(findTestObject("form/postalCode"), zip): Text '213123' is set on object 'Object Repository/form/postalCode'
+
+2023-01-08 19:33:01 - [MESSAGE][PASSED] - Text '213123' is set on object 'Object Repository/form/postalCode'
+
+2023-01-08 19:33:01 - [TEST_STEP][PASSED] - click(findTestObject("form/input_Cancel_continue")): Object: 'Object Repository/form/input_Cancel_continue' is clicked on
+
+2023-01-08 19:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/form/input_Cancel_continue' is clicked on
+
+2023-01-08 19:33:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-First Name is required"), 5): Object 'Object Repository/err-message/err-First Name is required' is present
+
+2023-01-08 19:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-First Name is required' is present
+
+2023-01-08 19:33:02 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 19:33:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module- Checkout/Checkout with Empty Last Name" time="21.89" classname="Test Cases/Module- Checkout/Checkout with Empty Last Name" status="PASSED">
+         <system-out><![CDATA[2023-01-08 19:33:03 - [TEST_CASE][PASSED] - Test Cases/Module- Checkout/Checkout with Empty Last Name: Test Cases/Module- Checkout/Checkout with Empty Last Name
+
+2023-01-08 19:33:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Cart/Cart - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:33:03 - [TEST_CASE][PASSED] - Test Cases/Module- Cart/Cart - Call: Test Cases/Module- Cart/Cart - Call
+
+2023-01-08 19:33:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Inventory and Sort/Inventory - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:33:04 - [TEST_CASE][PASSED] - Test Cases/Module- Inventory and Sort/Inventory - Call: Test Cases/Module- Inventory and Sort/Inventory - Call
+
+2023-01-08 19:33:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module-Login/Login - Call"), ["username1":"standard_user", "username2":"problem_user", "username3":"performance_glitch_user", "password":"secret_sauce"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:33:04 - [TEST_CASE][PASSED] - Test Cases/Module-Login/Login - Call: Test Cases/Module-Login/Login - Call
+
+2023-01-08 19:33:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 19:33:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 19:33:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 19:33:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 19:33:05 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:33:09 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:33:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), username1): Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:33:10 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:33:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:33:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:33:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-01-08 19:33:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-01-08 19:33:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:33:14 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-01-08 19:33:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-01-08 19:33:14 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items1_add to cart")): Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:33:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon1"), 5): Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:33:15 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:33:15 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items2_add to cart")): Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:33:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon2"), 5): Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:33:16 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items3_add to cart")): Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:33:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon3"), 5): Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:33:17 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:33:17 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items4_add to cart")): Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:33:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon4"), 5): Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:33:18 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:33:18 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items5_add to cart")): Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:33:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon5"), 5): Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:33:19 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items6_add to cart")): Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:33:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon6"), 5): Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:33:20 - [TEST_STEP][PASSED] - click(findTestObject("cart/cart")): Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:33:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:33:20 - [TEST_STEP][PASSED] - click(findTestObject("cart/button_Checkout")): Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:33:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:33:21 - [TEST_STEP][PASSED] - setText(findTestObject("form/firstName"), first): Text 'fajar' is set on object 'Object Repository/form/firstName'
+
+2023-01-08 19:33:22 - [MESSAGE][PASSED] - Text 'fajar' is set on object 'Object Repository/form/firstName'
+
+2023-01-08 19:33:22 - [TEST_STEP][PASSED] - setText(findTestObject("form/postalCode"), zip): Text '213123' is set on object 'Object Repository/form/postalCode'
+
+2023-01-08 19:33:23 - [MESSAGE][PASSED] - Text '213123' is set on object 'Object Repository/form/postalCode'
+
+2023-01-08 19:33:23 - [TEST_STEP][PASSED] - click(findTestObject("form/input_Cancel_continue")): Object: 'Object Repository/form/input_Cancel_continue' is clicked on
+
+2023-01-08 19:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/form/input_Cancel_continue' is clicked on
+
+2023-01-08 19:33:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-Last Name is required"), 5): Object 'Object Repository/err-message/err-Last Name is required' is present
+
+2023-01-08 19:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-Last Name is required' is present
+
+2023-01-08 19:33:24 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 19:33:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module- Checkout/Checkout with Empty Zip or Postal Code" time="18.333" classname="Test Cases/Module- Checkout/Checkout with Empty Zip or Postal Code" status="PASSED">
+         <system-out><![CDATA[2023-01-08 19:33:25 - [TEST_CASE][PASSED] - Test Cases/Module- Checkout/Checkout with Empty Zip or Postal Code: Test Cases/Module- Checkout/Checkout with Empty Zip or Postal Code
+
+2023-01-08 19:33:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Cart/Cart - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:33:25 - [TEST_CASE][PASSED] - Test Cases/Module- Cart/Cart - Call: Test Cases/Module- Cart/Cart - Call
+
+2023-01-08 19:33:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module- Inventory and Sort/Inventory - Call"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:33:25 - [TEST_CASE][PASSED] - Test Cases/Module- Inventory and Sort/Inventory - Call: Test Cases/Module- Inventory and Sort/Inventory - Call
+
+2023-01-08 19:33:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Module-Login/Login - Call"), ["username1":"standard_user", "username2":"problem_user", "username3":"performance_glitch_user", "password":"secret_sauce"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:33:26 - [TEST_CASE][PASSED] - Test Cases/Module-Login/Login - Call: Test Cases/Module-Login/Login - Call
+
+2023-01-08 19:33:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-08 19:33:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-08 19:33:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-08 19:33:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-08 19:33:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:33:27 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-01-08 19:33:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/username"), username1): Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:33:28 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/username'
+
+2023-01-08 19:33:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_Page/password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:33:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Page/password'
+
+2023-01-08 19:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/btn_login")): Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/btn_login' is clicked on
+
+2023-01-08 19:33:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-01-08 19:33:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-01-08 19:33:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module-Login/Login - Call' successfully
+
+2023-01-08 19:33:33 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-01-08 19:33:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-01-08 19:33:33 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items1_add to cart")): Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items1_add to cart' is clicked on
+
+2023-01-08 19:33:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon1"), 5): Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:33:34 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon1' is present
+
+2023-01-08 19:33:34 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items2_add to cart")): Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items2_add to cart' is clicked on
+
+2023-01-08 19:33:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon2"), 5): Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:33:35 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon2' is present
+
+2023-01-08 19:33:35 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items3_add to cart")): Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items3_add to cart' is clicked on
+
+2023-01-08 19:33:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon3"), 5): Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon3' is present
+
+2023-01-08 19:33:36 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items4_add to cart")): Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items4_add to cart' is clicked on
+
+2023-01-08 19:33:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon4"), 5): Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:33:37 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon4' is present
+
+2023-01-08 19:33:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items5_add to cart")): Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items5_add to cart' is clicked on
+
+2023-01-08 19:33:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon5"), 5): Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:33:37 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon5' is present
+
+2023-01-08 19:33:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_items/items6_add to cart")): Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_items/items6_add to cart' is clicked on
+
+2023-01-08 19:33:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart_counter/cart_icon6"), 5): Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/cart_counter/cart_icon6' is present
+
+2023-01-08 19:33:38 - [TEST_STEP][PASSED] - click(findTestObject("cart/cart")): Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/cart' is clicked on
+
+2023-01-08 19:33:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Inventory and Sort/Inventory - Call' successfully
+
+2023-01-08 19:33:39 - [TEST_STEP][PASSED] - click(findTestObject("cart/button_Checkout")): Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/cart/button_Checkout' is clicked on
+
+2023-01-08 19:33:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Module- Cart/Cart - Call' successfully
+
+2023-01-08 19:33:40 - [TEST_STEP][PASSED] - setText(findTestObject("form/lastName"), first): Text 'fajar' is set on object 'Object Repository/form/lastName'
+
+2023-01-08 19:33:41 - [MESSAGE][PASSED] - Text 'fajar' is set on object 'Object Repository/form/lastName'
+
+2023-01-08 19:33:41 - [TEST_STEP][PASSED] - setText(findTestObject("form/lastName"), last): Text 'putra' is set on object 'Object Repository/form/lastName'
+
+2023-01-08 19:33:41 - [MESSAGE][PASSED] - Text 'putra' is set on object 'Object Repository/form/lastName'
+
+2023-01-08 19:33:41 - [TEST_STEP][PASSED] - click(findTestObject("form/input_Cancel_continue")): Object: 'Object Repository/form/input_Cancel_continue' is clicked on
+
+2023-01-08 19:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/form/input_Cancel_continue' is clicked on
+
+2023-01-08 19:33:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("err-message/err-Postal Code is required"), 5): Object 'Object Repository/err-message/err-Postal Code is required' is present
+
+2023-01-08 19:33:42 - [MESSAGE][PASSED] - Object 'Object Repository/err-message/err-Postal Code is required' is present
+
+2023-01-08 19:33:42 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-01-08 19:33:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-08 19:32:01 - [TEST_SUITE][PASSED] - Module-4-Checkout: Test Cases/Module- Checkout/Checkout with Empty Zip or Postal Code]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

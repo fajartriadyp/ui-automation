@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Module-4-Checkout,Chrome 108.0.0.0,,,2023-01-08 19:32:01,2023-01-08 19:33:43,1m - 42.349s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout page,Chrome 108.0.0.0,As a user i should be able to see checkout page form,Positive,2023-01-08 19:32:01,2023-01-08 19:32:24,23.245s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:32:02,2023-01-08 19:32:21,19.435s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 19:32:21,2023-01-08 19:32:21,0.023s,PASSED
+"verifyElementPresent(findTestObject(""form/header""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:32:21,2023-01-08 19:32:22,0.441s,PASSED
+"verifyElementPresent(findTestObject(""form/firstName""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:32:22,2023-01-08 19:32:22,0.451s,PASSED
+"verifyElementPresent(findTestObject(""form/form_information""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:32:22,2023-01-08 19:32:23,0.440s,PASSED
+"verifyElementPresent(findTestObject(""form/input_Cancel_continue""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:32:23,2023-01-08 19:32:23,0.363s,PASSED
+"verifyElementPresent(findTestObject(""form/lastName""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:32:23,2023-01-08 19:32:23,0.346s,PASSED
+"verifyElementPresent(findTestObject(""form/postalCode""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:32:23,2023-01-08 19:32:24,0.446s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:32:24,2023-01-08 19:32:24,0.772s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout succes with valid value,Chrome 108.0.0.0,As a user i should be able to insert valid form,Positive,2023-01-08 19:32:24,2023-01-08 19:32:45,20.210s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:32:25,2023-01-08 19:32:39,14.291s,PASSED
+"setText(findTestObject(""form/firstName""), first)",Chrome 108.0.0.0,,,2023-01-08 19:32:39,2023-01-08 19:32:40,1.047s,PASSED
+"setText(findTestObject(""form/lastName""), last)",Chrome 108.0.0.0,,,2023-01-08 19:32:40,2023-01-08 19:32:41,1.048s,PASSED
+"setText(findTestObject(""form/postalCode""), zip)",Chrome 108.0.0.0,,,2023-01-08 19:32:41,2023-01-08 19:32:42,0.968s,PASSED
+"click(findTestObject(""form/input_Cancel_continue""))",Chrome 108.0.0.0,,,2023-01-08 19:32:42,2023-01-08 19:32:43,0.600s,PASSED
+"verifyElementPresent(findTestObject(""checkout2/div_Checkout Overview""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:32:43,2023-01-08 19:32:43,0.473s,PASSED
+"verifyElementPresent(findTestObject(""checkout2/Complete""), 0)",Chrome 108.0.0.0,,,2023-01-08 19:32:43,2023-01-08 19:32:44,0.455s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:32:44,2023-01-08 19:32:45,0.790s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout with Empty First Name,Chrome 108.0.0.0,As a user i shouldn't be able to insert form with Empty first name,Negative,2023-01-08 19:32:45,2023-01-08 19:33:03,18.312s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:32:45,2023-01-08 19:32:59,14.306s,PASSED
+"setText(findTestObject(""form/lastName""), last)",Chrome 108.0.0.0,,,2023-01-08 19:32:59,2023-01-08 19:33:00,0.966s,PASSED
+"setText(findTestObject(""form/postalCode""), zip)",Chrome 108.0.0.0,,,2023-01-08 19:33:00,2023-01-08 19:33:01,0.890s,PASSED
+"click(findTestObject(""form/input_Cancel_continue""))",Chrome 108.0.0.0,,,2023-01-08 19:33:01,2023-01-08 19:33:02,0.493s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-First Name is required""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:33:02,2023-01-08 19:33:02,0.452s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:33:02,2023-01-08 19:33:03,0.784s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout with Empty Last Name,Chrome 108.0.0.0,As a user i shouldn't be able to insert form with Empty last name,Negative,2023-01-08 19:33:03,2023-01-08 19:33:25,21.890s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:33:03,2023-01-08 19:33:21,17.732s,PASSED
+"setText(findTestObject(""form/firstName""), first)",Chrome 108.0.0.0,,,2023-01-08 19:33:21,2023-01-08 19:33:22,1.077s,PASSED
+"setText(findTestObject(""form/postalCode""), zip)",Chrome 108.0.0.0,,,2023-01-08 19:33:22,2023-01-08 19:33:23,0.895s,PASSED
+"click(findTestObject(""form/input_Cancel_continue""))",Chrome 108.0.0.0,,,2023-01-08 19:33:23,2023-01-08 19:33:24,0.643s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-Last Name is required""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:33:24,2023-01-08 19:33:24,0.447s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:33:24,2023-01-08 19:33:25,0.734s,PASSED
+,,,,,,,
+Test Cases/Module- Checkout/Checkout with Empty Zip or Postal Code,Chrome 108.0.0.0,As a user i shouldn't be able to insert form with Empty zip / postal code,Negative,2023-01-08 19:33:25,2023-01-08 19:33:43,18.333s,PASSED
+"callTestCase(findTestCase(""Module- Cart/Cart - Call""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 19:33:25,2023-01-08 19:33:40,14.358s,PASSED
+"setText(findTestObject(""form/lastName""), first)",Chrome 108.0.0.0,,,2023-01-08 19:33:40,2023-01-08 19:33:41,0.939s,PASSED
+"setText(findTestObject(""form/lastName""), last)",Chrome 108.0.0.0,,,2023-01-08 19:33:41,2023-01-08 19:33:41,0.901s,PASSED
+"click(findTestObject(""form/input_Cancel_continue""))",Chrome 108.0.0.0,,,2023-01-08 19:33:41,2023-01-08 19:33:42,0.515s,PASSED
+"verifyElementPresent(findTestObject(""err-message/err-Postal Code is required""), 5)",Chrome 108.0.0.0,,,2023-01-08 19:33:42,2023-01-08 19:33:42,0.454s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 19:33:42,2023-01-08 19:33:43,0.800s,PASSED

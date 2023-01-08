@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i shouldn't be able to insert form with Empty zip / postal code</description>
+   <name>Checkout with Empty Zip or Postal Code</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>b44c3d0a-1bf7-44a1-bd64-c8708b3540ff</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>caf149b3-6279-42b9-98f9-e239da97799b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f60d756d-a549-4749-930e-1fc2569afc3a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1ea2adc-49e2-4c3f-8072-01efe7cc5f4a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'fajar'</defaultValue>
+      <description></description>
+      <id>caf149b3-6279-42b9-98f9-e239da97799b</id>
+      <masked>false</masked>
+      <name>first</name>
+   </variable>
+   <variable>
+      <defaultValue>'putra'</defaultValue>
+      <description></description>
+      <id>f60d756d-a549-4749-930e-1fc2569afc3a</id>
+      <masked>false</masked>
+      <name>last</name>
+   </variable>
+   <variable>
+      <defaultValue>'122131'</defaultValue>
+      <description></description>
+      <id>a1ea2adc-49e2-4c3f-8072-01efe7cc5f4a</id>
+      <masked>false</masked>
+      <name>zip</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i should be able to sort item prize low to high</description>
+   <name>Inventory - Sort by item prize low to high</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>082b9548-cb60-4c23-b565-848dbe96a035</testCaseGuid>
+</TestCaseEntity>

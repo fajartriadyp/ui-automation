@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user before login i should access https://www.saucedemo.com/ and i should see login form and login button</description>
+   <name>Login - Open website</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>c9edc70d-7574-44fe-89a4-f666eea703d1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,186 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Module-2-Inventory _Sort,Chrome 108.0.0.0,,,2023-01-08 18:01:34,2023-01-08 18:05:16,3m - 41.264s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Add items to carts,Chrome 108.0.0.0,As a user i should be able to add items to cart,Positive,2023-01-08 18:01:35,2023-01-08 18:01:57,21.917s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:01:36,2023-01-08 18:01:49,13.220s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:01:49,2023-01-08 18:01:49,0.279s,PASSED
+"click(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:01:49,2023-01-08 18:01:50,0.576s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:01:50,2023-01-08 18:01:51,0.517s,PASSED
+"click(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:01:51,2023-01-08 18:01:51,0.488s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:01:51,2023-01-08 18:01:52,0.524s,PASSED
+"click(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:01:52,2023-01-08 18:01:52,0.498s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:01:52,2023-01-08 18:01:53,0.522s,PASSED
+"click(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:01:53,2023-01-08 18:01:53,0.509s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:01:53,2023-01-08 18:01:54,0.426s,PASSED
+"click(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:01:54,2023-01-08 18:01:54,0.580s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:01:54,2023-01-08 18:01:55,0.531s,PASSED
+"click(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:01:55,2023-01-08 18:01:55,0.605s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon6""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:01:55,2023-01-08 18:01:56,0.446s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:01:56,2023-01-08 18:01:57,1.147s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Page,Chrome 108.0.0.0,As a user i should be able to access and see the inventory page,Positive,2023-01-08 18:01:57,2023-01-08 18:02:15,17.933s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:01:58,2023-01-08 18:02:07,9.234s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:02:07,2023-01-08 18:02:07,0.040s,PASSED
+"verifyElementPresent(findTestObject(""items/items1""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:02:07,2023-01-08 18:02:08,0.572s,PASSED
+"verifyElementPresent(findTestObject(""items/items2""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:02:08,2023-01-08 18:02:08,0.561s,PASSED
+"verifyElementPresent(findTestObject(""items/items3""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:02:08,2023-01-08 18:02:09,0.533s,PASSED
+"verifyElementPresent(findTestObject(""items/items4""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:02:09,2023-01-08 18:02:09,0.560s,PASSED
+"verifyElementPresent(findTestObject(""items/items5""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:02:09,2023-01-08 18:02:10,0.484s,PASSED
+"verifyElementPresent(findTestObject(""items/items6""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:02:10,2023-01-08 18:02:10,0.596s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:10,2023-01-08 18:02:11,0.530s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:11,2023-01-08 18:02:11,0.567s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:11,2023-01-08 18:02:12,0.551s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:12,2023-01-08 18:02:13,0.519s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:13,2023-01-08 18:02:13,0.629s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:13,2023-01-08 18:02:14,0.551s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:02:14,2023-01-08 18:02:15,1.103s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Remove items,Chrome 108.0.0.0,As a user i should be able to remove items,Positive,2023-01-08 18:02:15,2023-01-08 18:02:39,24.694s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:02:16,2023-01-08 18:02:26,9.692s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:02:26,2023-01-08 18:02:26,0.036s,PASSED
+"click(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:26,2023-01-08 18:02:26,0.567s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:26,2023-01-08 18:02:27,0.571s,PASSED
+"click(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:27,2023-01-08 18:02:27,0.548s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:27,2023-01-08 18:02:28,0.496s,PASSED
+"click(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:28,2023-01-08 18:02:28,0.528s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:28,2023-01-08 18:02:29,0.436s,PASSED
+"click(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:29,2023-01-08 18:02:29,0.623s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:29,2023-01-08 18:02:30,0.483s,PASSED
+"click(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:30,2023-01-08 18:02:30,0.551s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:30,2023-01-08 18:02:31,0.481s,PASSED
+"click(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:02:31,2023-01-08 18:02:32,0.671s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon6""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:32,2023-01-08 18:02:32,0.464s,PASSED
+"click(findTestObject(""remove/items1_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:02:32,2023-01-08 18:02:33,0.615s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:33,2023-01-08 18:02:33,0.511s,PASSED
+"click(findTestObject(""remove/items2_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:02:33,2023-01-08 18:02:34,0.517s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:34,2023-01-08 18:02:34,0.513s,PASSED
+"click(findTestObject(""remove/items3_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:02:34,2023-01-08 18:02:35,0.608s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:35,2023-01-08 18:02:35,0.526s,PASSED
+"click(findTestObject(""remove/items4_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:02:35,2023-01-08 18:02:36,0.690s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:36,2023-01-08 18:02:37,0.539s,PASSED
+"click(findTestObject(""remove/items5_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:02:37,2023-01-08 18:02:37,0.619s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:02:37,2023-01-08 18:02:38,0.517s,PASSED
+"click(findTestObject(""remove/items6_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:02:38,2023-01-08 18:02:38,0.608s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:02:38,2023-01-08 18:02:39,1.185s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by item prize high to low,Chrome 108.0.0.0,As a user i should be able to sort item prize high to low,Positive,2023-01-08 18:02:40,2023-01-08 18:02:53,13.289s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:02:41,2023-01-08 18:02:50,9.385s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:02:50,2023-01-08 18:02:50,0.038s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:02:50,2023-01-08 18:02:51,0.731s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""hilo"", false)",Chrome 108.0.0.0,,,2023-01-08 18:02:51,2023-01-08 18:02:52,0.942s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:02:52,2023-01-08 18:02:53,0.964s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by item prize low to high,Chrome 108.0.0.0,As a user i should be able to sort item prize low to high,Positive,2023-01-08 18:02:53,2023-01-08 18:03:05,11.789s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:02:54,2023-01-08 18:03:02,8.591s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:03:02,2023-01-08 18:03:02,0.039s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:03:02,2023-01-08 18:03:03,0.587s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""lohi"", false)",Chrome 108.0.0.0,,,2023-01-08 18:03:03,2023-01-08 18:03:04,0.961s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:03:04,2023-01-08 18:03:05,0.895s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by name (A-Z),Chrome 108.0.0.0,As a user i should be able to sort items by name (A- Z),Positive,2023-01-08 18:03:05,2023-01-08 18:03:20,15.283s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:03:06,2023-01-08 18:03:15,9.063s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:03:15,2023-01-08 18:03:16,0.039s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:03:16,2023-01-08 18:03:16,0.739s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""za"", false)",Chrome 108.0.0.0,,,2023-01-08 18:03:16,2023-01-08 18:03:17,1.066s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:03:17,2023-01-08 18:03:18,0.627s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""az"", false)",Chrome 108.0.0.0,,,2023-01-08 18:03:18,2023-01-08 18:03:19,0.994s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:03:19,2023-01-08 18:03:20,0.932s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by name (Z-A),Chrome 108.0.0.0,As a user i should be able to sort items by name (Z- A),Positive,2023-01-08 18:03:20,2023-01-08 18:03:33,13.345s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:03:21,2023-01-08 18:03:31,9.637s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:03:31,2023-01-08 18:03:31,0.022s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:03:31,2023-01-08 18:03:31,0.586s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""za"", false)",Chrome 108.0.0.0,,,2023-01-08 18:03:31,2023-01-08 18:03:32,1.096s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:03:32,2023-01-08 18:03:33,0.946s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Add items to carts,Chrome 108.0.0.0,As a user i should be able to add items to cart,Positive,2023-01-08 18:03:33,2023-01-08 18:03:49,16.023s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:03:33,2023-01-08 18:03:42,8.731s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:03:42,2023-01-08 18:03:42,0.023s,PASSED
+"click(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:03:42,2023-01-08 18:03:43,0.531s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:03:43,2023-01-08 18:03:43,0.561s,PASSED
+"click(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:03:43,2023-01-08 18:03:44,0.593s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:03:44,2023-01-08 18:03:44,0.523s,PASSED
+"click(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:03:44,2023-01-08 18:03:45,0.522s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:03:45,2023-01-08 18:03:45,0.453s,PASSED
+"click(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:03:45,2023-01-08 18:03:46,0.616s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:03:46,2023-01-08 18:03:46,0.431s,PASSED
+"click(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:03:46,2023-01-08 18:03:47,0.606s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:03:47,2023-01-08 18:03:47,0.421s,PASSED
+"click(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:03:47,2023-01-08 18:03:48,0.613s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon6""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:03:48,2023-01-08 18:03:48,0.511s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:03:48,2023-01-08 18:03:49,0.861s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Page,Chrome 108.0.0.0,As a user i should be able to access and see the inventory page,Positive,2023-01-08 18:03:49,2023-01-08 18:04:05,15.524s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:03:49,2023-01-08 18:03:58,8.453s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:03:58,2023-01-08 18:03:58,0.023s,PASSED
+"verifyElementPresent(findTestObject(""items/items1""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:03:58,2023-01-08 18:03:58,0.450s,PASSED
+"verifyElementPresent(findTestObject(""items/items2""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:03:58,2023-01-08 18:03:59,0.556s,PASSED
+"verifyElementPresent(findTestObject(""items/items3""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:03:59,2023-01-08 18:03:59,0.520s,PASSED
+"verifyElementPresent(findTestObject(""items/items4""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:03:59,2023-01-08 18:04:00,0.423s,PASSED
+"verifyElementPresent(findTestObject(""items/items5""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:04:00,2023-01-08 18:04:00,0.537s,PASSED
+"verifyElementPresent(findTestObject(""items/items6""), 0)",Chrome 108.0.0.0,,,2023-01-08 18:04:00,2023-01-08 18:04:01,0.542s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:01,2023-01-08 18:04:01,0.453s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:01,2023-01-08 18:04:02,0.556s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:02,2023-01-08 18:04:02,0.477s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:02,2023-01-08 18:04:03,0.589s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:03,2023-01-08 18:04:03,0.481s,PASSED
+"verifyElementClickable(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:03,2023-01-08 18:04:04,0.565s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:04:04,2023-01-08 18:04:05,0.886s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Remove items,Chrome 108.0.0.0,As a user i should be able to remove items,Positive,2023-01-08 18:04:05,2023-01-08 18:04:27,22.589s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:04:05,2023-01-08 18:04:14,8.953s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:04:14,2023-01-08 18:04:14,0.022s,PASSED
+"click(findTestObject(""btn_items/items1_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:14,2023-01-08 18:04:14,0.527s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:14,2023-01-08 18:04:15,0.452s,PASSED
+"click(findTestObject(""btn_items/items2_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:15,2023-01-08 18:04:15,0.586s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:15,2023-01-08 18:04:16,0.450s,PASSED
+"click(findTestObject(""btn_items/items3_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:16,2023-01-08 18:04:17,0.686s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:17,2023-01-08 18:04:17,0.476s,PASSED
+"click(findTestObject(""btn_items/items4_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:17,2023-01-08 18:04:18,0.560s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:18,2023-01-08 18:04:18,0.434s,PASSED
+"click(findTestObject(""btn_items/items5_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:18,2023-01-08 18:04:19,0.591s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:19,2023-01-08 18:04:19,0.525s,PASSED
+"click(findTestObject(""btn_items/items6_add to cart""))",Chrome 108.0.0.0,,,2023-01-08 18:04:19,2023-01-08 18:04:20,0.517s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon6""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:20,2023-01-08 18:04:20,0.439s,PASSED
+"click(findTestObject(""remove/items1_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:04:20,2023-01-08 18:04:21,0.602s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon5""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:21,2023-01-08 18:04:21,0.431s,PASSED
+"click(findTestObject(""remove/items2_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:04:21,2023-01-08 18:04:22,0.673s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon4""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:22,2023-01-08 18:04:22,0.512s,PASSED
+"click(findTestObject(""remove/items3_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:04:22,2023-01-08 18:04:23,0.676s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon3""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:23,2023-01-08 18:04:24,0.570s,PASSED
+"click(findTestObject(""remove/items4_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:04:24,2023-01-08 18:04:24,0.596s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon2""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:24,2023-01-08 18:04:25,0.471s,PASSED
+"click(findTestObject(""remove/items5_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:04:25,2023-01-08 18:04:25,0.599s,PASSED
+"verifyElementPresent(findTestObject(""cart_counter/cart_icon1""), 5)",Chrome 108.0.0.0,,,2023-01-08 18:04:25,2023-01-08 18:04:26,0.512s,PASSED
+"click(findTestObject(""remove/items6_remove""))",Chrome 108.0.0.0,,,2023-01-08 18:04:26,2023-01-08 18:04:26,0.570s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:04:26,2023-01-08 18:04:27,1.134s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by item prize high to low,Chrome 108.0.0.0,As a user i should be able to sort item prize high to low,Positive,2023-01-08 18:04:27,2023-01-08 18:04:40,12.185s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:04:27,2023-01-08 18:04:37,9.737s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:04:37,2023-01-08 18:04:37,0.024s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:04:37,2023-01-08 18:04:38,0.633s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""hilo"", false)",Chrome 108.0.0.0,,,2023-01-08 18:04:38,2023-01-08 18:04:39,0.970s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:04:39,2023-01-08 18:04:40,0.811s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by item prize low to high,Chrome 108.0.0.0,As a user i should be able to sort item prize low to high,Positive,2023-01-08 18:04:40,2023-01-08 18:04:51,11.683s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:04:40,2023-01-08 18:04:48,8.819s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:04:48,2023-01-08 18:04:48,0.022s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:04:48,2023-01-08 18:04:49,0.711s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""lohi"", false)",Chrome 108.0.0.0,,,2023-01-08 18:04:49,2023-01-08 18:04:50,1.121s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:04:50,2023-01-08 18:04:51,0.998s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by name (A-Z),Chrome 108.0.0.0,As a user i should be able to sort items by name (A- Z),Positive,2023-01-08 18:04:51,2023-01-08 18:05:04,13.067s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:04:51,2023-01-08 18:05:00,8.854s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:05:00,2023-01-08 18:05:00,0.034s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:05:00,2023-01-08 18:05:01,0.583s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""za"", false)",Chrome 108.0.0.0,,,2023-01-08 18:05:01,2023-01-08 18:05:02,0.968s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:05:02,2023-01-08 18:05:02,0.691s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""az"", false)",Chrome 108.0.0.0,,,2023-01-08 18:05:02,2023-01-08 18:05:03,0.870s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:05:03,2023-01-08 18:05:04,1.054s,PASSED
+,,,,,,,
+Test Cases/Module- Inventory and Sort/Inventory - Sort by name (Z-A),Chrome 108.0.0.0,As a user i should be able to sort items by name (Z- A),Positive,2023-01-08 18:05:04,2023-01-08 18:05:16,11.131s,PASSED
+"callTestCase(findTestCase(""Module-Login/Login - Call""), [""username1"":""standard_user"", ""username2"":""problem_user"", ""username3"":""performance_glitch_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-08 18:05:04,2023-01-08 18:05:13,8.618s,PASSED
+waitForPageLoad(10),Chrome 108.0.0.0,,,2023-01-08 18:05:13,2023-01-08 18:05:13,0.027s,PASSED
+"click(findTestObject(""Sort/sort""))",Chrome 108.0.0.0,,,2023-01-08 18:05:13,2023-01-08 18:05:14,0.563s,PASSED
+"selectOptionByValue(findTestObject(""Sort/sort""), ""za"", false)",Chrome 108.0.0.0,,,2023-01-08 18:05:14,2023-01-08 18:05:15,0.978s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-08 18:05:15,2023-01-08 18:05:15,0.933s,PASSED

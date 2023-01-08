@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/Login - Call","testCaseId":"Test Cases/Login - Call","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login - Empty Login","testCaseId":"Test Cases/Login - Empty Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login - Open website","testCaseId":"Test Cases/Login - Open website","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login - Valid","testCaseId":"Test Cases/Login - Valid","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login - With invalid password and invalid username","testCaseId":"Test Cases/Login - With invalid password and invalid username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login - With invalid password","testCaseId":"Test Cases/Login - With invalid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login - With invalid username","testCaseId":"Test Cases/Login - With invalid username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login - With locked account","testCaseId":"Test Cases/Login - With locked account","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login - Must log in before entering any page","testCaseId":"Test Cases/Login - Must log in before entering any page","iterationVariableName":""}

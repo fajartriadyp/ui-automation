@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user I shouldn't login with locked account</description>
+   <name>Login - With locked account</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>2be387ae-9ac5-4106-a76a-5ad4f44c6458</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>324428c4-ff37-46e6-852c-52163079c209</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'locked_out_user'</defaultValue>
+      <description></description>
+      <id>324428c4-ff37-46e6-852c-52163079c209</id>
+      <masked>false</masked>
+      <name>locked_username</name>
+   </variable>
+</TestCaseEntity>

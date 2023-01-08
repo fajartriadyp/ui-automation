@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i should be able to add items to cart</description>
+   <name>Inventory - Add items to carts</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>51efa029-d7a4-4355-a176-2674510120f0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Calling inventory</description>
+   <name>Inventory - Call</name>
+   <tag>Support</tag>
+   <comment></comment>
+   <testCaseGuid>2fd3dcce-77dc-4f32-a525-69e0b236f220</testCaseGuid>
+</TestCaseEntity>

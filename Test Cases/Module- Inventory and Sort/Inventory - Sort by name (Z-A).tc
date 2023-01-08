@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i should be able to sort items by name (Z- A)</description>
+   <name>Inventory - Sort by name (Z-A)</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>ca9f46ee-1f54-4e32-837a-8f38a34ac2e3</testCaseGuid>
+</TestCaseEntity>

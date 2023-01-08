@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user i should be able to login using valid data</description>
+   <name>Login - Valid</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>1c5d0209-ced0-436d-82bb-a905bb3e3e03</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8bbda17e-e0ef-4003-8e44-6c7f325db424</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c36dc8dc-8ad7-439d-a6a7-26ee9c388656</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c9f894c-6993-4978-a074-98298bc86189</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>8bbda17e-e0ef-4003-8e44-6c7f325db424</id>
+      <masked>true</masked>
+      <name>username1</name>
+   </variable>
+   <variable>
+      <defaultValue>'problem_user'</defaultValue>
+      <description></description>
+      <id>c36dc8dc-8ad7-439d-a6a7-26ee9c388656</id>
+      <masked>true</masked>
+      <name>username2</name>
+   </variable>
+   <variable>
+      <defaultValue>'performance_glitch_user'</defaultValue>
+      <description></description>
+      <id>0c9f894c-6993-4978-a074-98298bc86189</id>
+      <masked>true</masked>
+      <name>username3</name>
+   </variable>
+</TestCaseEntity>
