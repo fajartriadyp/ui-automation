@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>test</name>
+   <tag></tag>
+   <elementGuidId>62bb62d2-319e-49b2-b525-dcc12b40c16b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@sort = 'product_sort_container']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>product_sort_container
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sort</name>
+      <type>Main</type>
+      <value>product_sort_container</value>
+      <webElementGuid>9e9e3c18-de46-4447-88f7-2a4e6b308d28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>.product_sort_container </name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>3a2549ba-f672-4883-8094-46d39458852f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
